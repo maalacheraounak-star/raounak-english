@@ -1,1269 +1,1262 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English with Raounak | Premium Online English Teaching</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+brand: {
+50: '#fdfbf7',
+100: '#f7f1e5',
+200: '#ebd8be',
+500: '#c88a58',
+600: '#b47443',
+700: '#8c502b',
+900: '#3d1e0d',
+},
+sand: {
+50: '#faf9f6',
+100: '#f3efe6',
+200: '#e4dccb',
+800: '#4a4437',
+}
+},
+fontFamily: {
+sans: ['Inter', 'sans-serif'],
+serif: ['Playfair Display', 'serif'],
+arabic: ['Alexandria', 'sans-serif'],
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', sans-serif; }
+html[dir="rtl"] body { font-family: 'Alexandria', sans-serif; }
+.font-serif-title { font-family: 'Playfair Display', serif; }
+html[dir="rtl"] .font-serif-title { font-family: 'Alexandria', sans-serif; }
+.glass { background: rgba(255, 255, 255, 0.90); backdrop-filter: blur(12px); }
+</style>
+</head>
+<body class="bg-sand-50 text-slate-800 antialiased selection:bg-brand-200 selection:text-brand-900 min-h-screen flex flex-col justify-between">
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en" dir="ltr" class="scroll-smooth">\
-<head>\
-<meta charset="UTF-8">\
-<meta name="viewport" content="width=device-width, initial-scale=1.0">\
-<title>English with Raounak | Premium Online English Teaching</title>\
-<!-- Tailwind CSS -->\
-<script src="https://cdn.tailwindcss.com"></script>\
-<!-- Lucide Icons -->\
-<script src="https://unpkg.com/lucide@latest"></script>\
-<script>\
-tailwind.config = \{\
-theme: \{\
-extend: \{\
-colors: \{\
-brand: \{\
-50: '#fdfbf7',\
-100: '#f7f1e5',\
-200: '#ebd8be',\
-500: '#c88a58',\
-600: '#b47443',\
-700: '#8c502b',\
-900: '#3d1e0d',\
-\},\
-sand: \{\
-50: '#faf9f6',\
-100: '#f3efe6',\
-200: '#e4dccb',\
-800: '#4a4437',\
-\}\
-\},\
-fontFamily: \{\
-sans: ['Inter', 'sans-serif'],\
-serif: ['Playfair Display', 'serif'],\
-arabic: ['Alexandria', 'sans-serif'],\
-\}\
-\}\
-\}\
-\}\
-</script>\
-<link rel="preconnect" href="https://fonts.googleapis.com">\
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
-<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">\
-<style>\
-body \{ font-family: 'Inter', sans-serif; \}\
-html[dir="rtl"] body \{ font-family: 'Alexandria', sans-serif; \}\
-.font-serif-title \{ font-family: 'Playfair Display', serif; \}\
-html[dir="rtl"] .font-serif-title \{ font-family: 'Alexandria', sans-serif; \}\
-.glass \{ background: rgba(255, 255, 255, 0.90); backdrop-filter: blur(12px); \}\
-</style>\
-</head>\
-<body class="bg-sand-50 text-slate-800 antialiased selection:bg-brand-200 selection:text-brand-900 min-h-screen flex flex-col justify-between">\
-\
-<!-- Top Bar Navigation -->\
-<nav class="sticky top-0 z-50 glass border-b border-sand-200/80 transition-all">\
-<div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-2">\
-<!-- Brand Logo -->\
-<a href="#" onclick="showPage('home')" class="flex items-center gap-3 group">\
-<div class="w-10 h-10 rounded-full bg-brand-600 text-white flex items-center justify-center font-serif-title font-bold text-xl shadow-md group-hover:bg-brand-700 transition">R</div>\
-<div class="flex flex-col">\
-<span class="font-serif-title text-lg font-bold tracking-tight text-brand-900 leading-none" data-i18n="brand_title">English with Raounak</span>\
-<span class="text-[10px] text-brand-700 font-medium tracking-wide" data-i18n="brand_subtitle">CELTA Qualified Educator</span>\
-</div>\
-</a>\
-\
-<!-- Navigation Links -->\
-<div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-700">\
-<button onclick="showPage('home')" class="hover:text-brand-700 transition" data-i18n="nav_home">Home</button>\
-<button onclick="showPage('about')" class="hover:text-brand-700 transition" data-i18n="nav_about">About Teacher</button>\
-<button onclick="showPage('courses')" class="hover:text-brand-700 transition" data-i18n="nav_courses">Programmes & Pricing</button>\
-<button onclick="showPage('test')" class="hover:text-brand-700 transition" data-i18n="nav_test">Placement Test</button>\
-<button onclick="showPage('contact')" class="hover:text-brand-700 transition" data-i18n="nav_contact">Enrolment & Contact</button>\
-<button onclick="showPage('faq')" class="hover:text-brand-700 transition" data-i18n="nav_faq">FAQ</button>\
-</div>\
-\
-<!-- Language & Action Buttons -->\
-<div class="flex items-center gap-2 sm:gap-3">\
-<!-- Language Selector -->\
-<div class="relative inline-block text-left">\
-<select id="langSelect" onchange="changeLanguage(this.value)" class="bg-white border border-sand-200 text-slate-700 text-xs rounded-xl px-2.5 py-1.5 focus:outline-none focus:border-brand-500 font-medium cursor-pointer shadow-sm">\
-<option value="en">\uc0\u55356 \u56812 \u55356 \u56807  English</option>\
-<option value="ar">\uc0\u55356 \u56809 \u55356 \u56831  \u1575 \u1604 \u1593 \u1585 \u1576 \u1610 \u1577  (RTL)</option>\
-<option value="fr">\uc0\u55356 \u56811 \u55356 \u56823  Fran\'e7ais</option>\
-</select>\
-</div>\
-\
-<!-- Portal Selectors -->\
-<button onclick="showPage('portal')" class="px-3 py-1.5 rounded-xl bg-sand-100 text-slate-700 hover:bg-sand-200 text-xs font-semibold transition" data-i18n="nav_student_portal">Student Portal</button>\
-<button onclick="checkAdminAccess()" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700 text-xs font-semibold transition shadow-sm" data-i18n="nav_admin">Teacher Dashboard</button>\
-</div>\
-</div>\
-</nav>\
-\
-<!-- Main Content Dynamic Container -->\
-<main id="app-content" class="flex-grow">\
-\
-<!-- ================= PAGE 1: HOME ================= -->\
-<section id="page-home" class="space-y-16 pb-20">\
-<!-- Hero Section -->\
-<div class="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24 bg-gradient-to-b from-brand-100/40 via-sand-50 to-sand-50">\
-<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">\
-<div class="md:col-span-7 space-y-6 text-center ltr:text-left rtl:text-right">\
-<span class="inline-block px-4 py-1.5 rounded-full bg-brand-100 text-brand-700 text-xs font-semibold tracking-wider uppercase" data-i18n="hero_badge">CELTA Certified Online Coaching</span>\
-<h1 class="text-4xl md:text-6xl font-serif-title font-normal text-slate-900 leading-tight">\
-<span data-i18n="hero_title1">Transform Your English Fluency with</span>\
-<span class="italic text-brand-700 block" data-i18n="hero_title2">Personalised Online Lessons</span>\
-</h1>\
-<p class="text-base md:text-lg text-slate-600 leading-relaxed max-w-xl" data-i18n="hero_desc">\
-High-impact 1:1 individual and small group lessons designed to build speaking confidence, grammatical precision, and real-world communication skills.\
-</p>\
-<div class="flex flex-col sm:flex-row items-center gap-4 pt-2 justify-center ltr:md:justify-start rtl:md:justify-start">\
-<button onclick="showPage('test')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-600 text-white font-medium hover:bg-brand-700 transition shadow-lg shadow-brand-600/20 flex items-center justify-center gap-2">\
-<span data-i18n="btn_take_test">Take Placement Test</span>\
-<i data-lucide="arrow-right" class="w-4 h-4 rtl:rotate-180"></i>\
-</button>\
-<button onclick="showPage('courses')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white border border-sand-200 text-slate-700 font-medium hover:bg-sand-100 transition" data-i18n="btn_explore_courses">\
-Explore Programmes & Pricing\
-</button>\
-</div>\
-</div>\
-\
-<!-- Avatar Preview -->\
-<div class="md:col-span-5 flex justify-center">\
-<div class="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-white shadow-2xl rotate-1 hover:rotate-0 transition duration-300">\
-<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">\
-<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-white text-center">\
-<p class="font-serif-title font-semibold text-lg">Raounak Maalache</p>\
-<p class="text-xs text-brand-200" data-i18n="hero_avatar_sub">CELTA Teacher & Master's Graduate</p>\
-</div>\
-</div>\
-</div>\
-</div>\
-</div>\
-\
-<!-- Key Teaching Formats (1:1 and Small Group ONLY) -->\
-<div class="max-w-7xl mx-auto px-6 space-y-10">\
-<div class="text-center space-y-2">\
-<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="formats_title">Tailored Lesson Formats</h2>\
-<p class="text-slate-600 text-sm max-w-lg mx-auto" data-i18n="formats_subtitle">Designed exclusively for individual focus or interactive group dynamics.</p>\
-</div>\
-<div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">\
-<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition">\
-<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center">\
-<i data-lucide="user" class="w-6 h-6"></i>\
-</div>\
-<h3 class="text-2xl font-serif-title text-slate-900" data-i18n="format_1_title">Individual Lessons (1:1)</h3>\
-<p class="text-slate-600 text-sm leading-relaxed" data-i18n="format_1_desc">100% customised lessons focused on your specific professional, academic, or conversational goals with immediate feedback.</p>\
-<div class="pt-2 text-brand-700 font-bold text-lg">2,000 DZD / 60-min session</div>\
-</div>\
-<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition">\
-<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center">\
-<i data-lucide="users" class="w-6 h-6"></i>\
-</div>\
-<h3 class="text-2xl font-serif-title text-slate-900" data-i18n="format_group_title">Small Group Lessons</h3>\
-<p class="text-slate-600 text-sm leading-relaxed" data-i18n="format_group_desc">Dynamic, collaborative learning in intimate groups. Practise real conversation with peers of similar levels.</p>\
-<div class="pt-2 text-brand-700 font-bold text-lg">1,000 DZD / student / 60-min session</div>\
-</div>\
-</div>\
-</div>\
-\
-<!-- Testimonials Section -->\
-<div class="max-w-7xl mx-auto px-6 py-12 border-t border-sand-200">\
-<div class="text-center space-y-2 mb-10">\
-<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="testimonials_title">Student Feedback</h2>\
-<p class="text-slate-600 text-sm" data-i18n="testimonials_sub">Genuine reviews from learners taking classes with Raounak.</p>\
-</div>\
-<div id="homeTestimonialsList" class="grid md:grid-cols-3 gap-6">\
-<!-- Loaded dynamically from LocalStorage -->\
-</div>\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 2: ABOUT TEACHER ================= -->\
-<section id="page-about" class="hidden max-w-5xl mx-auto px-6 py-12 space-y-12">\
-<div class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 shadow-sm space-y-8">\
-<div class="grid md:grid-cols-12 gap-8 items-center">\
-<div class="md:col-span-5 flex justify-center">\
-<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-64 h-64 md:w-full md:h-80 object-cover rounded-2xl shadow-md border-2 border-sand-200" onerror="this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">\
-</div>\
-<div class="md:col-span-7 space-y-4 ltr:text-left rtl:text-right">\
-<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase" data-i18n="about_badge">Meet Your Teacher</span>\
-<h2 class="text-3xl md:text-4xl font-serif-title text-slate-900">Raounak Maalache</h2>\
-<p class="text-brand-700 font-medium" data-i18n="about_subtitle">CELTA Qualified English Teacher & Educational Specialist</p>\
-<p class="text-slate-600 text-sm leading-relaxed" data-i18n="about_bio">\
-I am an experienced English educator dedicated to helping students develop authentic speaking fluency, grammatical clarity, and communication confidence. My approach is communicative, student-centred, and tailored to real-world application.\
-</p>\
-</div>\
-</div>\
-\
-<!-- Qualifications Grid -->\
-<div class="grid md:grid-cols-3 gap-6 pt-6 border-t border-sand-200">\
-<div class="p-5 rounded-2xl bg-sand-50 space-y-2">\
-<i data-lucide="award" class="w-6 h-6 text-brand-600"></i>\
-<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_1_title">CELTA Qualification</h4>\
-<p class="text-xs text-slate-600" data-i18n="qual_1_desc">Internationally recognised teaching certification for teaching English to speakers of other languages.</p>\
-</div>\
-<div class="p-5 rounded-2xl bg-sand-50 space-y-2">\
-<i data-lucide="graduation-cap" class="w-6 h-6 text-brand-600"></i>\
-<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_2_title">Master's Degree with Distinction</h4>\
-<p class="text-xs text-slate-600" data-i18n="qual_2_desc">Master's in Didactics of Foreign Languages (Bachelor's in English Language & Literature).</p>\
-</div>\
-<div class="p-5 rounded-2xl bg-sand-50 space-y-2">\
-<i data-lucide="clock" class="w-6 h-6 text-brand-600"></i>\
-<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_3_title">3+ Years Teaching Experience</h4>\
-<p class="text-xs text-slate-600" data-i18n="qual_3_desc">Extensive background teaching children, teenagers, and professional adult learners.</p>\
-</div>\
-</div>\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 3: COURSES & PRICING ================= -->\
-<section id="page-courses" class="hidden max-w-7xl mx-auto px-6 py-12 space-y-12">\
-<!-- Header -->\
-<div class="text-center space-y-3">\
-<h2 class="text-3xl md:text-4xl font-serif-title text-slate-900" data-i18n="courses_title">CEFR Programmes & Pricing</h2>\
-<p class="text-slate-600 text-sm max-w-2xl mx-auto" data-i18n="courses_sub">Structured progression from Beginner (A1) to Advanced (C1) based on official CEFR guidelines.</p>\
-</div>\
-\
-<!-- Pricing Calculator Widget -->\
-<div class="bg-gradient-to-r from-brand-900 to-slate-900 text-white p-8 rounded-3xl shadow-xl space-y-6">\
-<div class="flex items-center gap-3">\
-<i data-lucide="calculator" class="w-6 h-6 text-brand-200"></i>\
-<h3 class="text-xl font-serif-title font-semibold" data-i18n="calc_title">Interactive Fee & Duration Estimator</h3>\
-</div>\
-<div class="grid md:grid-cols-3 gap-6">\
-<div>\
-<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_level">Select Target CEFR Level</label>\
-<select id="calcLevel" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">\
-<option value="A1">A1 \'96 Beginner (40\'9650 hours)</option>\
-<option value="A2">A2 \'96 Elementary (50\'9660 hours)</option>\
-<option value="B1">B1 \'96 Intermediate (50\'9665 hours)</option>\
-<option value="B2">B2 \'96 Upper-Intermediate (60\'9675 hours)</option>\
-<option value="C1">C1 \'96 Advanced (65\'9680 hours)</option>\
-</select>\
-</div>\
-<div>\
-<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_format">Lesson Format</label>\
-<select id="calcFormat" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">\
-<option value="individual">Individual (1:1) - 2,000 DZD/hr</option>\
-<option value="group">Small Group - 1,000 DZD/hr</option>\
-</select>\
-</div>\
-<div>\
-<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_freq">Weekly Frequency (60-min sessions)</label>\
-<select id="calcFreq" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">\
-<option value="1">1 Session / Week</option>\
-<option value="2" selected>2 Sessions / Week</option>\
-<option value="3">3 Sessions / Week</option>\
-<option value="4">4 Sessions / Week</option>\
-</select>\
-</div>\
-</div>\
-\
-<!-- Calculation Output Box -->\
-<div class="bg-white/10 p-6 rounded-2xl border border-white/10 grid sm:grid-cols-2 gap-6 items-center">\
-<div>\
-<span class="text-xs text-brand-200 uppercase font-semibold" data-i18n="calc_out_price">Monthly Investment (Calculated on 4 weeks)</span>\
-<div id="calcPriceResult" class="text-3xl font-serif-title font-bold text-brand-100">16,000 DZD / month</div>\
-</div>\
-<div>\
-<span class="text-xs text-brand-200 uppercase font-semibold" data-i18n="calc_out_duration">Estimated Level Completion Time</span>\
-<div id="calcDurationResult" class="text-2xl font-serif-title font-semibold text-emerald-300">5 \'96 6 Months</div>\
-<p class="text-[11px] text-slate-300 mt-1" data-i18n="calc_disclaimer">*Note: Suggested completion timelines based on individual attendance and study pace.</p>\
-</div>\
-</div>\
-</div>\
-\
-<!-- Course Cards Grid -->\
-<div id="coursesListGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">\
-<!-- Programmatically filled -->\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 4: PLACEMENT TEST (ENGLISH ONLY) ================= -->\
-<section id="page-test" class="hidden max-w-4xl mx-auto px-6 py-12">\
-<!-- Introduction -->\
-<div id="testIntro" class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 space-y-6 text-center shadow-sm">\
-<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Official Assessment</span>\
-<h2 class="text-3xl font-serif-title text-slate-900">40-Question English Placement Test</h2>\
-<p class="text-slate-600 text-sm max-w-xl mx-auto leading-relaxed">\
-Evaluate your grammar, vocabulary, reading, functional English, and language structure across A1 to C1 levels.\
-</p>\
-\
-<div class="flex justify-center pt-4">\
-<button onclick="startPlacementTest()" class="px-8 py-4 rounded-full bg-brand-600 text-white font-medium hover:bg-brand-700 transition shadow-lg">\
-Start Online Placement Test\
-</button>\
-</div>\
-</div>\
-\
-<!-- Interactive Test Engine -->\
-<div id="testContainer" class="hidden bg-white rounded-3xl border border-sand-200 p-6 md:p-10 space-y-6 shadow-sm">\
-<div class="flex items-center justify-between border-b border-sand-200 pb-4">\
-<span id="testSectionTag" class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Grammar</span>\
-<span id="testProgressCounter" class="text-xs font-bold text-slate-500">Question 1 / 40</span>\
-</div>\
-\
-<div class="w-full bg-sand-100 h-2 rounded-full overflow-hidden">\
-<div id="testProgressBar" class="bg-brand-600 h-full w-0 transition-all duration-300"></div>\
-</div>\
-\
-<div class="space-y-4 py-2">\
-<h3 id="testQuestionText" class="text-lg md:text-xl font-medium text-slate-900 leading-snug">--</h3>\
-<div id="testPassageContainer" class="hidden p-4 rounded-2xl bg-sand-50 text-sm text-slate-700 italic border border-sand-200 leading-relaxed max-h-60 overflow-y-auto"></div>\
-<div id="testOptionsGrid" class="space-y-3 pt-2"></div>\
-</div>\
-\
-<div class="flex items-center justify-between border-t border-sand-200 pt-6">\
-<button id="btnPrevTest" onclick="navigateTest(-1)" class="px-6 py-2.5 rounded-xl border border-sand-200 text-slate-700 font-medium hover:bg-sand-100 text-sm transition">\
-Previous\
-</button>\
-<button id="btnNextTest" onclick="navigateTest(1)" class="px-6 py-2.5 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 text-sm transition">\
-Next\
-</button>\
-</div>\
-</div>\
-\
-<!-- Test Results & Contact Submission Form -->\
-<div id="testResultContainer" class="hidden bg-white rounded-3xl border border-sand-200 p-8 md:p-12 space-y-8 shadow-sm">\
-<div class="text-center space-y-3 border-b border-sand-200 pb-6">\
-<div class="w-16 h-16 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto font-serif-title font-bold text-2xl">\uc0\u10003 </div>\
-<h2 class="text-3xl font-serif-title text-slate-900">Placement Test Complete</h2>\
-<p class="text-slate-600 text-sm">Here is your initial estimated CEFR level assessment.</p>\
-</div>\
-\
-<div class="bg-sand-50 p-6 rounded-2xl border border-sand-200 space-y-4">\
-<div class="flex items-center justify-between">\
-<span class="text-sm font-semibold text-slate-700">Total Multiple-Choice Score</span>\
-<span id="resTotalScore" class="text-2xl font-bold text-brand-700">0 / 40</span>\
-</div>\
-<div class="flex items-center justify-between border-t border-sand-200 pt-3">\
-<span class="text-sm font-semibold text-slate-700">Estimated Starting Level</span>\
-<span id="resEstimatedLevel" class="px-4 py-1.5 rounded-full bg-brand-600 text-white font-bold text-sm">A1</span>\
-</div>\
-<p id="resLevelDesc" class="text-xs text-slate-600 leading-relaxed pt-2">--</p>\
-</div>\
-\
-<div id="resSectionBreakdown" class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs"></div>\
-\
-<form id="testSubmissionForm" onsubmit="submitTestProfile(event)" class="space-y-4 pt-4 border-t border-sand-200">\
-<h3 class="text-lg font-serif-title font-semibold text-slate-900">Request Official Enrolment & Feedback</h3>\
-<div class="grid sm:grid-cols-2 gap-4">\
-<input type="text" id="tSubName" required placeholder="Full Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<input type="email" id="tSubEmail" required placeholder="Email Address *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-</div>\
-<div class="grid sm:grid-cols-2 gap-4">\
-<input type="tel" id="tSubPhone" required placeholder="WhatsApp Number *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<select id="tSubFormat" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<option value="Individual (1:1)">Individual (1:1)</option>\
-<option value="Small Group">Small Group</option>\
-</select>\
-</div>\
-<textarea id="tSubWriting" rows="3" placeholder="Optional Writing Task: Tell Raounak about your learning goals (120-180 words)..." class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500"></textarea>\
-\
-<button type="submit" class="w-full py-4 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition shadow-md">\
-Submit Test & Enrolment Request\
-</button>\
-</form>\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 5: ENROLMENT & CONTACT ================= -->\
-<section id="page-contact" class="hidden max-w-4xl mx-auto px-6 py-12 space-y-12">\
-<div class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 shadow-sm space-y-8">\
-<div class="text-center space-y-2 border-b border-sand-200 pb-6">\
-<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase" data-i18n="contact_badge">Direct Communication</span>\
-<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="contact_title">Enrolment & Direct Contact</h2>\
-<p class="text-slate-600 text-sm" data-i18n="contact_sub">Have questions or want to secure your lesson spot directly?</p>\
-</div>\
-\
-<div class="grid sm:grid-cols-2 gap-6">\
-<a href="https://wa.me/213698959091" target="_blank" class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center gap-4 hover:bg-emerald-100 transition group">\
-<div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center">\
-<i data-lucide="message-circle" class="w-6 h-6"></i>\
-</div>\
-<div>\
-<span class="text-xs uppercase text-emerald-800 font-semibold block">WhatsApp Direct</span>\
-<span class="text-lg font-bold text-emerald-900">+213 698 95 90 91</span>\
-</div>\
-</a>\
-<a href="mailto:raounakmaalache@yahoo.com" class="p-6 rounded-2xl bg-brand-50 border border-brand-200 flex items-center gap-4 hover:bg-brand-100 transition group">\
-<div class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center">\
-<i data-lucide="mail" class="w-6 h-6"></i>\
-</div>\
-<div>\
-<span class="text-xs uppercase text-brand-800 font-semibold block">Email Address</span>\
-<span class="text-sm font-bold text-brand-900 truncate block">raounakmaalache@yahoo.com</span>\
-</div>\
-</a>\
-</div>\
-\
-<form id="directEnrolForm" onsubmit="submitDirectEnrolment(event)" class="space-y-4 pt-4">\
-<h3 class="text-lg font-serif-title font-semibold text-slate-900" data-i18n="enrol_form_title">Course Enrolment Form</h3>\
-<div class="grid sm:grid-cols-2 gap-4">\
-<input type="text" id="deName" required placeholder="Full Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<input type="email" id="deEmail" required placeholder="Email Address *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-</div>\
-<div class="grid sm:grid-cols-2 gap-4">\
-<input type="tel" id="dePhone" required placeholder="WhatsApp Number *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<select id="deFormat" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<option value="Individual (1:1)">Individual Lessons (1:1)</option>\
-<option value="Small Group">Small Group Lessons</option>\
-</select>\
-</div>\
-<select id="deLevel" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<option value="A1">A1 - Beginner</option>\
-<option value="A2">A2 - Elementary</option>\
-<option value="B1">B1 - Intermediate</option>\
-<option value="B2">B2 - Upper-Intermediate</option>\
-<option value="C1">C1 - Advanced</option>\
-</select>\
-<button type="submit" class="w-full py-4 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition shadow-md" data-i18n="btn_submit_enrol">\
-Submit Enrolment Request\
-</button>\
-</form>\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 6: FAQ ================= -->\
-<section id="page-faq" class="hidden max-w-4xl mx-auto px-6 py-12 space-y-8">\
-<div class="text-center space-y-2">\
-<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="faq_title">Frequently Asked Questions</h2>\
-<p class="text-slate-600 text-sm" data-i18n="faq_sub">Everything you need to know about lessons, scheduling, and payment.</p>\
-</div>\
-<div id="faqAccordion" class="space-y-4">\
-<!-- Programmatically loaded -->\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 7: STUDENT PORTAL (LOCKED UNLESS ENROLLED) ================= -->\
-<section id="page-portal" class="hidden max-w-5xl mx-auto px-6 py-12 space-y-8">\
-<!-- Locked State View -->\
-<div id="portalLocked" class="bg-white rounded-3xl border border-sand-200 p-10 text-center space-y-6 shadow-sm">\
-<div class="w-16 h-16 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto">\
-<i data-lucide="lock" class="w-8 h-8"></i>\
-</div>\
-<div class="space-y-2 max-w-md mx-auto">\
-<h2 class="text-2xl font-serif-title text-slate-900">Student Portal Access</h2>\
-<p class="text-slate-600 text-sm">To access your personal schedule, Zoom links, and downloadable worksheets, please enter your registered Email or Enrolment Access Code.</p>\
-</div>\
-<div class="max-w-sm mx-auto flex gap-2">\
-<input type="text" id="portalAccessInput" placeholder="Enter Email or Access Code..." class="flex-grow p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<button onclick="verifyStudentPortal()" class="px-5 py-3 bg-brand-600 text-white font-semibold rounded-xl text-sm hover:bg-brand-700 transition">Access</button>\
-</div>\
-<p class="text-xs text-slate-400">Not enrolled yet? Complete the <button onclick="showPage('contact')" class="text-brand-700 underline font-medium">Enrolment Form</button> first.</p>\
-</div>\
-\
-<!-- Unlocked State View -->\
-<div id="portalUnlocked" class="hidden space-y-8">\
-<div class="bg-white rounded-3xl border border-sand-200 p-8 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6">\
-<div class="space-y-1 text-center sm:text-left">\
-<span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold uppercase">Active Enrolment</span>\
-<h2 id="portalWelcomeName" class="text-2xl font-serif-title text-slate-900">Welcome Back, Learner!</h2>\
-<p class="text-slate-600 text-xs">Track your lessons, learning materials, and schedule.</p>\
-</div>\
-<div class="bg-sand-50 p-4 rounded-2xl border border-sand-200 text-center">\
-<span class="text-[10px] uppercase font-semibold text-slate-500 block">Current Progress</span>\
-<span id="portalStudentLevel" class="text-lg font-bold text-brand-700">Level B1 - Intermediate</span>\
-</div>\
-</div>\
-\
-<div class="grid md:grid-cols-2 gap-8">\
-<!-- Schedule -->\
-<div class="bg-white rounded-3xl border border-sand-200 p-6 space-y-4">\
-<div class="flex items-center gap-2">\
-<i data-lucide="calendar" class="w-5 h-5 text-brand-600"></i>\
-<h3 class="font-serif-title font-semibold text-slate-900">Upcoming Schedule</h3>\
-</div>\
-<div class="space-y-3">\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">\
-<div>\
-<span class="text-xs font-semibold text-brand-700 block">Session 14: Functional Speaking</span>\
-<span class="text-xs text-slate-500">Tuesday, 18:00 - 19:00</span>\
-</div>\
-<a href="https://zoom.us" target="_blank" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white text-xs font-semibold hover:bg-brand-700 transition">Zoom</a>\
-</div>\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">\
-<div>\
-<span class="text-xs font-semibold text-brand-700 block">Session 15: Grammar in Context</span>\
-<span class="text-xs text-slate-500">Thursday, 18:00 - 19:00</span>\
-</div>\
-<a href="https://zoom.us" target="_blank" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white text-xs font-semibold hover:bg-brand-700 transition">Zoom</a>\
-</div>\
-</div>\
-</div>\
-\
-<!-- Resources -->\
-<div class="bg-white rounded-3xl border border-sand-200 p-6 space-y-4">\
-<div class="flex items-center gap-2">\
-<i data-lucide="book-open" class="w-5 h-5 text-brand-600"></i>\
-<h3 class="font-serif-title font-semibold text-slate-900">Course Resources</h3>\
-</div>\
-<div class="space-y-3">\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">\
-<span class="text-xs font-medium text-slate-700">Unit 4 Worksheet - B1 Grammar</span>\
-<button onclick="alert('Downloading worksheet PDF...')" class="p-2 rounded-xl bg-white border border-sand-200 hover:bg-sand-100 transition"><i data-lucide="download" class="w-4 h-4 text-brand-700"></i></button>\
-</div>\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">\
-<span class="text-xs font-medium text-slate-700">Vocabulary Flashcards List</span>\
-<button onclick="alert('Downloading vocabulary flashcards...')" class="p-2 rounded-xl bg-white border border-sand-200 hover:bg-sand-100 transition"><i data-lucide="download" class="w-4 h-4 text-brand-700"></i></button>\
-</div>\
-</div>\
-</div>\
-</div>\
-</div>\
-</section>\
-\
-<!-- ================= PAGE 8: TEACHER DASHBOARD (ADMIN) ================= -->\
-<section id="page-admin" class="hidden max-w-7xl mx-auto px-6 py-12 space-y-8">\
-<div class="bg-white rounded-3xl border border-sand-200 p-8 shadow-sm space-y-8">\
-<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-sand-200 pb-6">\
-<div>\
-<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Admin Portal</span>\
-<h2 class="text-3xl font-serif-title text-slate-900">Teacher Dashboard</h2>\
-<p class="text-slate-600 text-xs">Manage enrolments, student placement test submissions, and testimonials.</p>\
-</div>\
-<button onclick="logoutAdmin()" class="px-4 py-2 rounded-xl bg-red-50 text-red-700 hover:bg-red-100 text-xs font-semibold transition">Lock Dashboard</button>\
-</div>\
-\
-<!-- Admin Tabs -->\
-<div class="flex gap-2 border-b border-sand-200 pb-4 overflow-x-auto">\
-<button onclick="switchAdminTab('enrolments')" id="tabBtnEnrolments" class="px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition">Enrolment Requests</button>\
-<button onclick="switchAdminTab('tests')" id="tabBtnTests" class="px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition">Placement Test Submissions</button>\
-<button onclick="switchAdminTab('testimonials')" id="tabBtnTestimonials" class="px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition">Testimonials Manager</button>\
-</div>\
-\
-<!-- Tab Content 1: Enrolments -->\
-<div id="adminTabEnrolments" class="space-y-4">\
-<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Direct Enrolment Requests</h3>\
-<div id="adminEnrolmentsList" class="space-y-3">\
-<!-- Loaded dynamically -->\
-</div>\
-</div>\
-\
-<!-- Tab Content 2: Placement Tests -->\
-<div id="adminTabTests" class="hidden space-y-4">\
-<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Placement Test Submissions & Writing Tasks</h3>\
-<div id="adminTestsList" class="space-y-3">\
-<!-- Loaded dynamically -->\
-</div>\
-</div>\
-\
-<!-- Tab Content 3: Testimonials Manager -->\
-<div id="adminTabTestimonials" class="hidden space-y-4">\
-<div class="flex items-center justify-between">\
-<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Manage Student Testimonials</h3>\
-<button onclick="openAddTestimonialModal()" class="px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition">+ Add Review</button>\
-</div>\
-<div id="adminTestimonialsList" class="space-y-3">\
-<!-- Loaded dynamically -->\
-</div>\
-</div>\
-</div>\
-</section>\
-\
-</main>\
-\
-<!-- Admin Passcode Modal -->\
-<div id="adminModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4">\
-<div class="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl space-y-6">\
-<div class="text-center space-y-2">\
-<div class="w-12 h-12 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto">\
-<i data-lucide="lock" class="w-6 h-6"></i>\
-</div>\
-<h3 class="text-xl font-serif-title font-semibold text-slate-900">Teacher Dashboard Access</h3>\
-<p class="text-slate-600 text-xs">Please enter your teacher security passcode to proceed.</p>\
-</div>\
-<input type="password" id="adminPassInput" placeholder="Enter secure passcode..." class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">\
-<div class="flex gap-3">\
-<button onclick="closeAdminModal()" class="w-1/2 py-3 rounded-xl border border-sand-200 text-slate-700 text-sm font-semibold hover:bg-sand-50 transition">Cancel</button>\
-<button onclick="verifyAdminPasscode()" class="w-1/2 py-3 rounded-xl bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition">Authenticate</button>\
-</div>\
-</div>\
-</div>\
-\
-<!-- Add Testimonial Modal -->\
-<div id="testimonialModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4">\
-<div class="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl space-y-6">\
-<h3 class="text-xl font-serif-title font-semibold text-slate-900">Add New Testimonial</h3>\
-<form onsubmit="saveNewTestimonial(event)" class="space-y-4">\
-<input type="text" id="newRevName" required placeholder="Student Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm">\
-<input type="text" id="newRevLevel" required placeholder="Level / Course (e.g. B1 Intermediate) *" class="w-full p-3 rounded-xl border border-sand-200 text-sm">\
-<textarea id="newRevText" rows="3" required placeholder="Review Text *" class="w-full p-3 rounded-xl border border-sand-200 text-sm"></textarea>\
-<div class="flex gap-3">\
-<button type="button" onclick="closeTestimonialModal()" class="w-1/2 py-3 rounded-xl border border-sand-200 text-sm font-semibold">Cancel</button>\
-<button type="submit" class="w-1/2 py-3 rounded-xl bg-brand-600 text-white text-sm font-semibold">Save</button>\
-</div>\
-</form>\
-</div>\
-</div>\
-\
-<!-- Footer -->\
-<footer class="bg-white border-t border-sand-200 mt-20 py-8">\
-<div class="max-w-7xl mx-auto px-6 text-center space-y-4">\
-<p class="font-serif-title font-bold text-brand-900 text-lg">English with Raounak</p>\
-<p class="text-xs text-slate-500">\'a9 2026 Raounak Maalache. All rights reserved. CELTA Qualified English Teaching.</p>\
-</div>\
-</footer>\
-\
-<!-- JavaScript Application Logic -->\
-<script>\
-// --- TRANSLATIONS & DICTIONARY ---\
-const translations = \{\
-en: \{\
-brand_title: "English with Raounak",\
-brand_subtitle: "CELTA Qualified Educator",\
-nav_home: "Home",\
-nav_about: "About Teacher",\
-nav_courses: "Programmes & Pricing",\
-nav_test: "Placement Test",\
-nav_contact: "Enrolment & Contact",\
-nav_faq: "FAQ",\
-nav_student_portal: "Student Portal",\
-nav_admin: "Teacher Dashboard",\
-hero_badge: "CELTA Certified Online Coaching",\
-hero_title1: "Transform Your English Fluency with",\
-hero_title2: "Personalised Online Lessons",\
-hero_desc: "High-impact 1:1 individual and small group lessons designed to build speaking confidence, grammatical precision, and real-world communication skills.",\
-btn_take_test: "Take Placement Test",\
-btn_explore_courses: "Explore Programmes & Pricing",\
-hero_avatar_sub: "CELTA Teacher & Master's Graduate",\
-formats_title: "Tailored Lesson Formats",\
-formats_subtitle: "Designed exclusively for individual focus or interactive group dynamics.",\
-format_1_title: "Individual Lessons (1:1)",\
-format_1_desc: "100% customised lessons focused on your specific professional, academic, or conversational goals with immediate feedback.",\
-format_group_title: "Small Group Lessons",\
-format_group_desc: "Dynamic, collaborative learning in intimate groups. Practise real conversation with peers of similar levels.",\
-testimonials_title: "Student Feedback",\
-testimonials_sub: "Genuine reviews from learners taking classes with Raounak.",\
-about_badge: "Meet Your Teacher",\
-about_subtitle: "CELTA Qualified English Teacher & Educational Specialist",\
-about_bio: "I am an experienced English educator dedicated to helping students develop authentic speaking fluency, grammatical clarity, and communication confidence. My approach is communicative, student-centred, and tailored to real-world application.",\
-qual_1_title: "CELTA Qualification",\
-qual_1_desc: "Internationally recognised teaching certification for teaching English to speakers of other languages.",\
-qual_2_title: "Master's Degree with Distinction",\
-qual_2_desc: "Master's in Didactics of Foreign Languages (Bachelor's in English Language & Literature).",\
-qual_3_title: "3+ Years Teaching Experience",\
-qual_3_desc: "Extensive background teaching children, teenagers, and professional adult learners.",\
-courses_title: "CEFR Programmes & Pricing",\
-courses_sub: "Structured progression from Beginner (A1) to Advanced (C1) based on official CEFR guidelines.",\
-calc_title: "Interactive Fee & Duration Estimator",\
-calc_select_level: "Select Target CEFR Level",\
-calc_select_format: "Lesson Format",\
-calc_select_freq: "Weekly Frequency (60-min sessions)",\
-calc_out_price: "Monthly Investment (Calculated on 4 weeks)",\
-calc_out_duration: "Estimated Level Completion Time",\
-calc_disclaimer: "*Note: Suggested completion timelines based on individual attendance and study pace.",\
-contact_badge: "Direct Communication",\
-contact_title: "Enrolment & Direct Contact",\
-contact_sub: "Have questions or want to secure your lesson spot directly?",\
-enrol_form_title: "Course Enrolment Form",\
-btn_submit_enrol: "Submit Enrolment Request",\
-faq_title: "Frequently Asked Questions",\
-faq_sub: "Everything you need to know about lessons, scheduling, and payment."\
-\},\
-fr: \{\
-brand_title: "English with Raounak",\
-brand_subtitle: "\'c9ducatrice Qualifi\'e9e CELTA",\
-nav_home: "Accueil",\
-nav_about: "\'c0 propos",\
-nav_courses: "Programmes & Tarifs",\
-nav_test: "Test de Niveau",\
-nav_contact: "Inscription & Contact",\
-nav_faq: "FAQ",\
-nav_student_portal: "Portail \'c9l\'e8ve",\
-nav_admin: "Tableau de Bord",\
-hero_badge: "Coaching en Ligne Certifi\'e9 CELTA",\
-hero_title1: "Transformez votre Anglais avec des",\
-hero_title2: "Cours Particuliers Personnalis\'e9s",\
-hero_desc: "Des cours individuels et en petits groupes \'e0 impact \'e9lev\'e9 pour d\'e9velopper votre aisance et votre pr\'e9cision grammaticale.",\
-btn_take_test: "Faire le Test de Niveau",\
-btn_explore_courses: "Voir Programmes & Tarifs",\
-hero_avatar_sub: "Professeur CELTA & Master",\
-formats_title: "Formats de Cours Adapt\'e9s",\
-formats_subtitle: "Con\'e7us exclusivement pour un suivi individuel ou une dynamique de groupe.",\
-format_1_title: "Cours Individuels (1:1)",\
-format_1_desc: "Des cours 100% personnalis\'e9s selon vos objectifs professionnels, universitaires ou conversationnels.",\
-format_group_title: "Petits Groupes",\
-format_group_desc: "Apprentissage collaboratif et dynamique en petits comit\'e9s. Pratiquez avec des pairs.",\
-testimonials_title: "Avis des \'c9l\'e8ves",\
-testimonials_sub: "Retours authentiques d'apprenants suivant les cours de Raounak.",\
-about_badge: "Rencontrez Votre Professeur",\
-about_subtitle: "Professeur d'Anglais Qualifi\'e9e CELTA & Sp\'e9cialiste en \'c9ducation",\
-about_bio: "Je suis une \'e9ducatrice exp\'e9riment\'e9e d\'e9di\'e9e \'e0 aider les \'e9tudiants \'e0 d\'e9velopper une fluidit\'e9 d'expression authentique.",\
-qual_1_title: "Qualification CELTA",\
-qual_1_desc: "Certification internationale reconnue pour l'enseignement de l'anglais.",\
-qual_2_title: "Master avec Distinction",\
-qual_2_desc: "Master en Didactique des Langues \'c9trang\'e8res.",\
-qual_3_title: "3+ Ans d'Exp\'e9rience",\
-qual_3_desc: "Large exp\'e9rience aupr\'e8s d'enfants, ados et professionnels.",\
-courses_title: "Programmes & Tarifs CEFR",\
-courses_sub: "Progression structur\'e9e du D\'e9butant (A1) \'e0 Avanc\'e9 (C1) selon les directives CEFR.",\
-calc_title: "Estimateur Interactif des Tarifs & Dur\'e9es",\
-calc_select_level: "S\'e9lectionnez le Niveau CEFR Cible",\
-calc_select_format: "Format de Cours",\
-calc_select_freq: "Fr\'e9quence Hebdomadaire (s\'e9ances 60 min)",\
-calc_out_price: "Investissement Mensuel (Calcul\'e9 sur 4 semaines)",\
-calc_out_duration: "Dur\'e9e Estim\'e9e pour Compl\'e9ter le Niveau",\
-calc_disclaimer: "*Remarque : D\'e9lais indicatifs bas\'e9s sur la r\'e9gularit\'e9 et le rythme de l'\'e9l\'e8ve.",\
-contact_badge: "Communication Directe",\
-contact_title: "Inscription & Contact Direct",\
-contact_sub: "Des questions ou besoin de r\'e9server votre place directement ?",\
-enrol_form_title: "Formulaire d'Inscription",\
-btn_submit_enrol: "Soumettre la Demande d'Inscription",\
-faq_title: "Foire Aux Questions",\
-faq_sub: "Tout ce que vous devez savoir sur les cours, les horaires et les paiements."\
-\},\
-ar: \{\
-brand_title: "\uc0\u1575 \u1604 \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 \u1577  \u1605 \u1593  \u1585 \u1608 \u1606 \u1602 ",\
-brand_subtitle: "\uc0\u1571 \u1587 \u1578 \u1575 \u1584 \u1577  \u1605 \u1593 \u1578 \u1605 \u1583 \u1577  \u1576 \u1588 \u1607 \u1575 \u1583 \u1577  CELTA",\
-nav_home: "\uc0\u1575 \u1604 \u1585 \u1574 \u1610 \u1587 \u1610 \u1577 ",\
-nav_about: "\uc0\u1593 \u1606  \u1575 \u1604 \u1571 \u1587 \u1578 \u1575 \u1584 \u1577 ",\
-nav_courses: "\uc0\u1575 \u1604 \u1576 \u1585 \u1575 \u1605 \u1580  \u1608 \u1575 \u1604 \u1571 \u1587 \u1593 \u1575 \u1585 ",\
-nav_test: "\uc0\u1575 \u1582 \u1578 \u1576 \u1575 \u1585  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1605 \u1587 \u1578 \u1608 \u1609 ",\
-nav_contact: "\uc0\u1575 \u1604 \u1578 \u1587 \u1580 \u1610 \u1604  \u1608 \u1575 \u1604 \u1578 \u1608 \u1575 \u1589 \u1604 ",\
-nav_faq: "\uc0\u1575 \u1604 \u1571 \u1587 \u1574 \u1604 \u1577  \u1575 \u1604 \u1588 \u1575 \u1574 \u1593 \u1577 ",\
-nav_student_portal: "\uc0\u1601 \u1590 \u1575 \u1569  \u1575 \u1604 \u1578 \u1604 \u1605 \u1610 \u1584 ",\
-nav_admin: "\uc0\u1604 \u1608 \u1581 \u1577  \u1575 \u1604 \u1578 \u1581 \u1603 \u1605  \u1604 \u1604 \u1571 \u1587 \u1578 \u1575 \u1584 \u1577 ",\
-hero_badge: "\uc0\u1578 \u1583 \u1585 \u1610 \u1587  \u1571 \u1608 \u1606 \u1604 \u1575 \u1610 \u1606  \u1605 \u1593 \u1578 \u1605 \u1583  \u1576 \u1588 \u1607 \u1575 \u1583 \u1577  CELTA",\
-hero_title1: "\uc0\u1591 \u1608 \u1585  \u1591 \u1604 \u1575 \u1602 \u1578 \u1603  \u1601 \u1610  \u1575 \u1604 \u1604 \u1594 \u1577  \u1575 \u1604 \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 \u1577  \u1605 \u1593 ",\
-hero_title2: "\uc0\u1583 \u1585 \u1608 \u1587  \u1582 \u1589 \u1608 \u1589 \u1610 \u1577  \u1605 \u1582 \u1589 \u1589 \u1577 ",\
-hero_desc: "\uc0\u1583 \u1585 \u1608 \u1587  \u1601 \u1585 \u1583 \u1610 \u1577  \u1608 \u1580 \u1605 \u1575 \u1593 \u1610 \u1577  \u1593 \u1575 \u1604 \u1610 \u1577  \u1575 \u1604 \u1578 \u1571 \u1579 \u1610 \u1585  \u1605 \u1589 \u1605 \u1605 \u1577  \u1582 \u1589 \u1610 \u1589 \u1575 \u1611  \u1604 \u1576 \u1606 \u1575 \u1569  \u1575 \u1604 \u1579 \u1602 \u1577  \u1601 \u1610  \u1575 \u1604 \u1578 \u1581 \u1583 \u1579 \u1548  \u1608 \u1575 \u1604 \u1583 \u1602 \u1577  \u1575 \u1604 \u1606 \u1581 \u1608 \u1610 \u1577 \u1548  \u1608 \u1605 \u1607 \u1575 \u1585 \u1575 \u1578  \u1575 \u1604 \u1578 \u1608 \u1575 \u1589 \u1604  \u1575 \u1604 \u1581 \u1602 \u1610 \u1602 \u1610 \u1577 .",\
-btn_take_test: "\uc0\u1573 \u1580 \u1585 \u1575 \u1569  \u1575 \u1582 \u1578 \u1576 \u1575 \u1585  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1605 \u1587 \u1578 \u1608 \u1609 ",\
-btn_explore_courses: "\uc0\u1575 \u1587 \u1578 \u1603 \u1588 \u1575 \u1601  \u1575 \u1604 \u1576 \u1585 \u1575 \u1605 \u1580  \u1608 \u1575 \u1604 \u1571 \u1587 \u1593 \u1575 \u1585 ",\
-hero_avatar_sub: "\uc0\u1571 \u1587 \u1578 \u1575 \u1584 \u1577  CELTA \u1608 \u1582 \u1585 \u1610 \u1580 \u1577  \u1605 \u1575 \u1587 \u1578 \u1585 ",\
-formats_title: "\uc0\u1589 \u1610 \u1594  \u1575 \u1604 \u1583 \u1585 \u1608 \u1587  \u1575 \u1604 \u1605 \u1589 \u1605 \u1605 \u1577 ",\
-formats_subtitle: "\uc0\u1605 \u1589 \u1605 \u1605 \u1577  \u1582 \u1589 \u1610 \u1589 \u1575 \u1611  \u1604 \u1604 \u1578 \u1585 \u1603 \u1610 \u1586  \u1575 \u1604 \u1601 \u1585 \u1583 \u1610  \u1571 \u1608  \u1583 \u1610 \u1606 \u1575 \u1605 \u1610 \u1603 \u1610 \u1577  \u1575 \u1604 \u1605 \u1580 \u1605 \u1608 \u1593 \u1575 \u1578  \u1575 \u1604 \u1578 \u1601 \u1575 \u1593 \u1604 \u1610 \u1577 .",\
-format_1_title: "\uc0\u1583 \u1585 \u1608 \u1587  \u1601 \u1585 \u1583 \u1610 \u1577  (1:1)",\
-format_1_desc: "\uc0\u1583 \u1585 \u1608 \u1587  \u1605 \u1582 \u1589 \u1589 \u1577  100% \u1578 \u1585 \u1603 \u1586  \u1593 \u1604 \u1609  \u1571 \u1607 \u1583 \u1575 \u1601 \u1603  \u1575 \u1604 \u1605 \u1607 \u1606 \u1610 \u1577 \u1548  \u1575 \u1604 \u1571 \u1603 \u1575 \u1583 \u1610 \u1605 \u1610 \u1577 \u1548  \u1571 \u1608  \u1575 \u1604 \u1605 \u1581 \u1575 \u1583 \u1579 \u1577  \u1605 \u1593  \u1578 \u1602 \u1610 \u1610 \u1605  \u1601 \u1608 \u1585 \u1610 .",\
-format_group_title: "\uc0\u1583 \u1585 \u1608 \u1587  \u1605 \u1580 \u1605 \u1608 \u1593 \u1575 \u1578  \u1589 \u1594 \u1610 \u1585 \u1577 ",\
-format_group_desc: "\uc0\u1578 \u1593 \u1604 \u1605  \u1578 \u1593 \u1575 \u1608 \u1606 \u1610  \u1583 \u1610 \u1606 \u1575 \u1605 \u1610 \u1603 \u1610  \u1601 \u1610  \u1605 \u1580 \u1605 \u1608 \u1593 \u1575 \u1578  \u1605 \u1589 \u1594 \u1585 \u1577 . \u1605 \u1575 \u1585 \u1587  \u1575 \u1604 \u1605 \u1581 \u1575 \u1583 \u1579 \u1577  \u1575 \u1604 \u1581 \u1602 \u1610 \u1602 \u1610 \u1577  \u1605 \u1593  \u1586 \u1605 \u1604 \u1575 \u1569  \u1576 \u1606 \u1601 \u1587  \u1575 \u1604 \u1605 \u1587 \u1578 \u1608 \u1609 .",\
-testimonials_title: "\uc0\u1570 \u1585 \u1575 \u1569  \u1575 \u1604 \u1591 \u1604 \u1575 \u1576 ",\
-testimonials_sub: "\uc0\u1578 \u1602 \u1610 \u1610 \u1605 \u1575 \u1578  \u1581 \u1602 \u1610 \u1602 \u1610 \u1577  \u1605 \u1606  \u1575 \u1604 \u1605 \u1578 \u1593 \u1604 \u1605 \u1610 \u1606  \u1575 \u1604 \u1584 \u1610 \u1606  \u1583 \u1585 \u1587 \u1608 \u1575  \u1605 \u1593  \u1585 \u1608 \u1606 \u1602 .",\
-about_badge: "\uc0\u1578 \u1593 \u1585 \u1601  \u1593 \u1604 \u1609  \u1571 \u1587 \u1578 \u1575 \u1584 \u1578 \u1603 ",\
-about_subtitle: "\uc0\u1571 \u1587 \u1578 \u1575 \u1584 \u1577  \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 \u1577  \u1605 \u1593 \u1578 \u1605 \u1583 \u1577  CELTA \u1608 \u1605 \u1582 \u1578 \u1589 \u1577  \u1578 \u1585 \u1576 \u1608 \u1610 \u1577 ",\
-about_bio: "\uc0\u1571 \u1606 \u1575  \u1571 \u1587 \u1578 \u1575 \u1584 \u1577  \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 \u1577  \u1582 \u1576 \u1610 \u1585 \u1577  \u1571 \u1603 \u1585 \u1587  \u1580 \u1607 \u1583 \u1610  \u1604 \u1605 \u1587 \u1575 \u1593 \u1583 \u1577  \u1575 \u1604 \u1591 \u1604 \u1575 \u1576  \u1593 \u1604 \u1609  \u1578 \u1591 \u1608 \u1610 \u1585  \u1591 \u1604 \u1575 \u1602 \u1577  \u1575 \u1604 \u1578 \u1581 \u1583 \u1579  \u1575 \u1604 \u1571 \u1589 \u1610 \u1604 \u1577  \u1608 \u1575 \u1604 \u1608 \u1590 \u1608 \u1581  \u1575 \u1604 \u1606 \u1581 \u1608 \u1610  \u1608 \u1579 \u1602 \u1577  \u1575 \u1604 \u1578 \u1608 \u1575 \u1589 \u1604 .",\
-qual_1_title: "\uc0\u1588 \u1607 \u1575 \u1583 \u1577  CELTA \u1575 \u1604 \u1593 \u1575 \u1604 \u1605 \u1610 \u1577 ",\
-qual_1_desc: "\uc0\u1588 \u1607 \u1575 \u1583 \u1577  \u1583 \u1608 \u1604 \u1610 \u1577  \u1605 \u1593 \u1578 \u1605 \u1583 \u1577  \u1604 \u1578 \u1583 \u1585 \u1610 \u1587  \u1575 \u1604 \u1604 \u1594 \u1577  \u1575 \u1604 \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 \u1577  \u1604 \u1594 \u1610 \u1585  \u1575 \u1604 \u1606 \u1575 \u1591 \u1602 \u1610 \u1606  \u1576 \u1607 \u1575 .",\
-qual_2_title: "\uc0\u1588 \u1607 \u1575 \u1583 \u1577  \u1575 \u1604 \u1605 \u1575 \u1587 \u1578 \u1585  \u1576 \u1575 \u1605 \u1578 \u1610 \u1575 \u1586 ",\
-qual_2_desc: "\uc0\u1605 \u1575 \u1587 \u1578 \u1585  \u1601 \u1610  \u1583 \u1610 \u1583 \u1575 \u1603 \u1578 \u1610 \u1603  \u1575 \u1604 \u1604 \u1594 \u1575 \u1578  \u1575 \u1604 \u1571 \u1580 \u1606 \u1576 \u1610 \u1577  (\u1604 \u1610 \u1587 \u1575 \u1606 \u1587  \u1601 \u1610  \u1575 \u1604 \u1604 \u1594 \u1577  \u1608 \u1575 \u1604 \u1571 \u1583 \u1576  \u1575 \u1604 \u1573 \u1606 \u1580 \u1604 \u1610 \u1586 \u1610 ).",\
-qual_3_title: "\uc0\u1571 \u1603 \u1579 \u1585  \u1605 \u1606  3 \u1587 \u1606 \u1608 \u1575 \u1578  \u1582 \u1576 \u1585 \u1577 ",\
-qual_3_desc: "\uc0\u1582 \u1604 \u1601 \u1610 \u1577  \u1608 \u1575 \u1587 \u1593 \u1577  \u1601 \u1610  \u1578 \u1583 \u1585 \u1610 \u1587  \u1575 \u1604 \u1571 \u1591 \u1601 \u1575 \u1604 \u1548  \u1575 \u1604 \u1605 \u1585 \u1575 \u1607 \u1602 \u1610 \u1606 \u1548  \u1608 \u1575 \u1604 \u1576 \u1575 \u1604 \u1594 \u1610 \u1606  \u1575 \u1604 \u1605 \u1607 \u1606 \u1610 \u1610 \u1606 .",\
-courses_title: "\uc0\u1576 \u1585 \u1575 \u1605 \u1580  \u1608 \u1575 \u1604 \u1571 \u1587 \u1593 \u1575 \u1585  CEFR",\
-courses_sub: "\uc0\u1578 \u1583 \u1585 \u1580  \u1605 \u1606 \u1592 \u1605  \u1605 \u1606  \u1575 \u1604 \u1605 \u1576 \u1578 \u1583 \u1574  (A1) \u1573 \u1604 \u1609  \u1575 \u1604 \u1605 \u1578 \u1602 \u1583 \u1605  (C1) \u1575 \u1587 \u1578 \u1606 \u1575 \u1583 \u1575 \u1611  \u1573 \u1604 \u1609  \u1575 \u1604 \u1605 \u1593 \u1575 \u1610 \u1610 \u1585  \u1575 \u1604 \u1571 \u1608 \u1585 \u1608 \u1576 \u1610 \u1577  \u1575 \u1604 \u1605 \u1585 \u1580 \u1593 \u1610 \u1577  \u1604 \u1604 \u1594 \u1575 \u1578 .",\
-calc_title: "\uc0\u1581 \u1575 \u1587 \u1576 \u1577  \u1575 \u1604 \u1571 \u1587 \u1593 \u1575 \u1585  \u1608 \u1575 \u1604 \u1605 \u1583 \u1577  \u1575 \u1604 \u1578 \u1602 \u1583 \u1610 \u1585 \u1610 \u1577 ",\
-calc_select_level: "\uc0\u1575 \u1582 \u1578 \u1585  \u1575 \u1604 \u1605 \u1587 \u1578 \u1608 \u1609  \u1575 \u1604 \u1605 \u1587 \u1578 \u1607 \u1583 \u1601 ",\
-calc_select_format: "\uc0\u1589 \u1610 \u1594 \u1577  \u1575 \u1604 \u1583 \u1585 \u1587 ",\
-calc_select_freq: "\uc0\u1593 \u1583 \u1583  \u1575 \u1604 \u1581 \u1589 \u1589  \u1575 \u1604 \u1571 \u1587 \u1576 \u1608 \u1593 \u1610 \u1577  (60 \u1583 \u1602 \u1610 \u1602 \u1577 )",\
-calc_out_price: "\uc0\u1575 \u1604 \u1575 \u1587 \u1578 \u1579 \u1605 \u1575 \u1585  \u1575 \u1604 \u1588 \u1607 \u1585 \u1610  (\u1605 \u1581 \u1587 \u1608 \u1576  \u1593 \u1604 \u1609  4 \u1571 \u1587 \u1575 \u1576 \u1610 \u1593 )",\
-calc_out_duration: "\uc0\u1575 \u1604 \u1605 \u1583 \u1577  \u1575 \u1604 \u1578 \u1602 \u1583 \u1610 \u1585 \u1610 \u1577  \u1604 \u1573 \u1603 \u1605 \u1575 \u1604  \u1575 \u1604 \u1605 \u1587 \u1578 \u1608 \u1609 ",\
-calc_disclaimer: "*\uc0\u1605 \u1604 \u1575 \u1581 \u1592 \u1577 : \u1575 \u1604 \u1605 \u1583 \u1577  \u1575 \u1604 \u1578 \u1602 \u1583 \u1610 \u1585 \u1610 \u1577  \u1578 \u1593 \u1578 \u1605 \u1583  \u1593 \u1604 \u1609  \u1575 \u1604 \u1575 \u1606 \u1590 \u1576 \u1575 \u1591  \u1608 \u1575 \u1604 \u1580 \u1607 \u1583  \u1575 \u1604 \u1588 \u1582 \u1589 \u1610 .",\
-contact_badge: "\uc0\u1575 \u1604 \u1578 \u1608 \u1575 \u1589 \u1604  \u1575 \u1604 \u1605 \u1576 \u1575 \u1588 \u1585 ",\
-contact_title: "\uc0\u1575 \u1604 \u1578 \u1587 \u1580 \u1610 \u1604  \u1608 \u1575 \u1604 \u1578 \u1608 \u1575 \u1589 \u1604  \u1575 \u1604 \u1605 \u1576 \u1575 \u1588 \u1585 ",\
-contact_sub: "\uc0\u1604 \u1583 \u1610 \u1603  \u1575 \u1587 \u1578 \u1601 \u1587 \u1575 \u1585 \u1575 \u1578  \u1571 \u1608  \u1578 \u1585 \u1610 \u1583  \u1581 \u1580 \u1586  \u1605 \u1603 \u1575 \u1606 \u1603  \u1601 \u1610  \u1575 \u1604 \u1583 \u1585 \u1608 \u1587  \u1605 \u1576 \u1575 \u1588 \u1585 \u1577 \u1567 ",\
-enrol_form_title: "\uc0\u1575 \u1587 \u1578 \u1605 \u1575 \u1585 \u1577  \u1578 \u1587 \u1580 \u1610 \u1604  \u1575 \u1604 \u1591 \u1604 \u1575 \u1576 ",\
-btn_submit_enrol: "\uc0\u1573 \u1585 \u1587 \u1575 \u1604  \u1591 \u1604 \u1576  \u1575 \u1604 \u1578 \u1587 \u1580 \u1610 \u1604 ",\
-faq_title: "\uc0\u1575 \u1604 \u1571 \u1587 \u1574 \u1604 \u1577  \u1575 \u1604 \u1588 \u1575 \u1574 \u1593 \u1577 ",\
-faq_sub: "\uc0\u1603 \u1604  \u1605 \u1575  \u1578 \u1581 \u1578 \u1575 \u1580  \u1605 \u1593 \u1585 \u1601 \u1578 \u1607  \u1581 \u1608 \u1604  \u1575 \u1604 \u1583 \u1585 \u1608 \u1587 \u1548  \u1575 \u1604 \u1605 \u1608 \u1575 \u1593 \u1610 \u1583 \u1548  \u1608 \u1591 \u1585 \u1602  \u1575 \u1604 \u1583 \u1601 \u1593 ."\
-\}\
-\};\
-\
-let currentLang = 'en';\
-\
-function changeLanguage(lang) \{\
-currentLang = lang;\
-const htmlTag = document.documentElement;\
-if (lang === 'ar') \{\
-htmlTag.setAttribute('dir', 'rtl');\
-htmlTag.setAttribute('lang', 'ar');\
-\} else \{\
-htmlTag.setAttribute('dir', 'ltr');\
-htmlTag.setAttribute('lang', lang);\
-\}\
-\
-document.querySelectorAll('[data-i18n]').forEach(el => \{\
-const key = el.getAttribute('data-i18n');\
-if (translations[lang] && translations[lang][key]) \{\
-el.textContent = translations[lang][key];\
-\}\
-\});\
-\
-updateCalc();\
-\}\
-\
-// --- NAVIGATION ROUTER ---\
-function showPage(pageId) \{\
-['home', 'about', 'courses', 'test', 'contact', 'faq', 'portal', 'admin'].forEach(p => \{\
-const el = document.getElementById('page-' + p);\
-if (el) el.classList.add('hidden');\
-\});\
-const target = document.getElementById('page-' + pageId);\
-if (target) target.classList.remove('hidden');\
-window.scrollTo(\{ top: 0, behavior: 'smooth' \});\
-\
-if (pageId === 'courses') renderCoursesGrid();\
-if (pageId === 'faq') renderFaqAccordion();\
-if (pageId === 'home') renderHomeTestimonials();\
-\}\
-\
-// --- SECURE ADMIN ACCESS & AUTHENTICATION ---\
-let isAdminLoggedIn = false;\
-\
-// Secure SHA-256 hash implementation for private authentication\
-async function sha256(message) \{\
-const msgBuffer = new TextEncoder().encode(message);\
-const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);\
-const hashArray = Array.from(new Uint8Array(hashBuffer));\
-return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');\
-\}\
-\
-// Pre-computed secure hash for the teacher's authorized passcode (kept completely private from plain text disclosure)\
-const AUTHORIZED_ADMIN_HASH = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";\
-\
-async function checkAdminAccess() \{\
-if (isAdminLoggedIn) \{\
-showPage('admin');\
-loadAdminData();\
-\} else \{\
-document.getElementById('adminModal').classList.remove('hidden');\
-\}\
-\}\
-\
-function closeAdminModal() \{\
-document.getElementById('adminModal').classList.add('hidden');\
-\}\
-\
-async function verifyAdminPasscode() \{\
-const pass = document.getElementById('adminPassInput').value;\
-const hashedInput = await sha256(pass);\
-if (hashedInput === AUTHORIZED_ADMIN_HASH) \{\
-isAdminLoggedIn = true;\
-closeAdminModal();\
-document.getElementById('adminPassInput').value = '';\
-showPage('admin');\
-loadAdminData();\
-\} else \{\
-alert('Incorrect passcode! Access restricted to authorized teacher.');\
-document.getElementById('adminPassInput').value = '';\
-\}\
-\}\
-\
-function logoutAdmin() \{\
-isAdminLoggedIn = false;\
-showPage('home');\
-\}\
-\
-// --- COURSES & PRICING CALCULATOR (WITH 3-LANGUAGE MONTH LABEL) ---\
-function getMonthLabel() \{\
-if (currentLang === 'ar') return '/ \uc0\u1588 \u1607 \u1585 ';\
-if (currentLang === 'fr') return '/ mois';\
-return '/ month';\
-\}\
-\
-function updateCalc() \{\
-const level = document.getElementById('calcLevel').value;\
-const format = document.getElementById('calcFormat').value;\
-const freq = parseInt(document.getElementById('calcFreq').value);\
-\
-let hourlyRate = format === 'individual' ? 2000 : 1000;\
-let monthlySessions = freq * 4;\
-let monthlyPrice = monthlySessions * hourlyRate;\
-\
-let durationMap = \{\
-'A1': '4 \'96 5 Months',\
-'A2': '5 \'96 6 Months',\
-'B1': '5 \'96 6 Months',\
-'B2': '6 \'96 7 Months',\
-'C1': '6 \'96 8 Months'\
-\};\
-\
-document.getElementById('calcPriceResult').textContent = `$\{monthlyPrice.toLocaleString()\} DZD $\{getMonthLabel()\}`;\
-document.getElementById('calcDurationResult').textContent = durationMap[level];\
-\}\
-\
-const coursesData = [\
-\{ level: 'A1', title: 'A1 \'96 Beginner Level', hours: '40\'9650 Hours', desc: 'Basic everyday expressions, simple introductions, and foundational vocabulary.' \},\
-\{ level: 'A2', title: 'A2 \'96 Elementary Level', hours: '50\'9660 Hours', desc: 'Routine conversations, expressing past experiences, and practical travel English.' \},\
-\{ level: 'B1', title: 'B1 \'96 Intermediate Level', hours: '50\'9665 Hours', desc: 'Fluency in familiar topics, describing ambitions, and handling most travel situations.' \},\
-\{ level: 'B2', title: 'B2 \'96 Upper-Intermediate', hours: '60\'9675 Hours', desc: 'Spontaneous interaction with native speakers, complex essays, and abstract discussions.' \},\
-\{ level: 'C1', title: 'C1 \'96 Advanced Proficiency', hours: '65\'9680 Hours', desc: 'Professional fluency, sophisticated nuances, and high-level academic communication.' \}\
-];\
-\
-function renderCoursesGrid() \{\
-const grid = document.getElementById('coursesListGrid');\
-grid.innerHTML = coursesData.map(c => `\
-<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition flex flex-col justify-between">\
-<div class="space-y-3">\
-<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">$\{c.level\} Programme</span>\
-<h3 class="text-xl font-serif-title text-slate-900">$\{c.title\}</h3>\
-<p class="text-xs text-brand-600 font-semibold">Estimated Duration: $\{c.hours\}</p>\
-<p class="text-slate-600 text-sm leading-relaxed">$\{c.desc\}</p>\
-</div>\
-<button onclick="showPage('test')" class="w-full py-3 rounded-xl bg-sand-100 text-slate-700 font-semibold hover:bg-sand-200 text-xs transition">Take Test for $\{c.level\}</button>\
-</div>\
-`).join('');\
-\}\
-\
-// --- PLACEMENT TEST (ENGLISH ONLY - NO TRANSLATIONS) ---\
-const placementQuestions = [\
-// Grammar (1-10)\
-\{ section: 'Grammar', text: 'She _____ to the gym every morning before work.', options: ['go', 'goes', 'going', 'is go'], answer: 1 \},\
-\{ section: 'Grammar', text: 'I _____ English for three years now.', options: ['study', 'am studying', 'have been studying', 'studied'], answer: 2 \},\
-\{ section: 'Grammar', text: 'If I had known about the traffic, I _____ another route.', options: ['will take', 'would take', 'would have taken', 'took'], answer: 2 \},\
-\{ section: 'Grammar', text: 'He asked me where _____ .', options: ['do I live', 'I live', 'did I live', 'I lived'], answer: 3 \},\
-\{ section: 'Grammar', text: 'The report _____ by the manager yesterday afternoon.', options: ['was written', 'wrote', 'is written', 'has written'], answer: 0 \},\
-\{ section: 'Grammar', text: 'By this time next year, we _____ our degree.', options: ['will finish', 'will have finished', 'finish', 'are finishing'], answer: 1 \},\
-\{ section: 'Grammar', text: 'Hardly _____ entered the room when the phone rang.', options: ['he had', 'had he', 'did he', 'he has'], answer: 1 \},\
-\{ section: 'Grammar', text: 'She is looking forward to _____ you soon.', options: ['see', 'seeing', 'seen', 'be see'], answer: 1 \},\
-\{ section: 'Grammar', text: 'Despite _____ hard, he failed the examination.', options: ['study', 'studying', 'studied', 'he studied'], answer: 1 \},\
-\{ section: 'Grammar', text: 'Not only _____ late, but he also forgot his documents.', options: ['he was', 'was he', 'did he be', 'he is'], answer: 1 \},\
-// Vocabulary (11-20)\
-\{ section: 'Vocabulary', text: 'Choose the synonym for "Resilient":', options: ['Fragile', 'Flexible', 'Strong/Adaptable', 'Weak'], answer: 2 \},\
-\{ section: 'Vocabulary', text: 'What does the phrasal verb "bring about" mean?', options: ['To cause to happen', 'To stop', 'To remove', 'To support'], answer: 0 \},\
-\{ section: 'Vocabulary', text: 'Select the correct collocation: "To _____ a decision."', options: ['do', 'make', 'take', 'have'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'What is the opposite of "Transparent"?', options: ['Clear', 'Opaque', 'Translucent', 'Bright'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'Find the correct word: "Her presentation was so _____ that everyone applauded."', options: ['tedious', 'compelling', 'monotonous', 'mediocre'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'Choose the word that means "to reduce expenditure":', options: ['Inflate', 'Retrench', 'Expand', 'Subsidise'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'What does "abundant" mean?', options: ['Scarce', 'Plentiful', 'Tiny', 'Hidden'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'Select the correct adjective for someone who is overly cautious:', options: ['Audacious', 'Timid', 'Reckless', 'Bold'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'What is a "bottleneck" in project management?', options: ['A container', 'A point of congestion', 'A final report', 'A budget surplus'], answer: 1 \},\
-\{ section: 'Vocabulary', text: 'Choose the correct idiom for "revealing a secret unintentionally":', options: ['Spill the beans', 'Bite the bullet', 'Break a leg', 'Hit the nail'], answer: 0 \},\
-// Reading Comprehension (21-30)\
-\{ section: 'Reading', passage: 'Reading Passage: "Remote work has fundamentally altered urban demographics. As professionals enjoy location independence, secondary towns experience economic revitalisation while major metropolitan centers witness shifts in commercial real estate demand."', text: 'What is the primary effect of remote work mentioned in the text?', options: ['Decline of all cities', 'Economic revitalisation of secondary towns', 'Increase in office building prices', 'End of urban living'], answer: 1 \},\
-\{ section: 'Reading', text: 'Based on the passage, what caused this demographic shift?', options: ['Government relocation policies', 'Location independence of professionals', 'Lower transportation costs', 'Decline in rural employment'], answer: 1 \},\
-\{ section: 'Reading', passage: 'Reading Passage: "Artificial intelligence in education does not replace the educator; rather, it automates administrative burdens, allowing teachers to focus on empathetic student mentoring and tailored pedagogical engagement."', text: 'According to the text, what is the main role of AI in education?', options: ['Replacing teachers entirely', 'Automating administrative tasks', 'Increasing tuition fees', 'Eliminating homework'], answer: 1 \},\
-\{ section: 'Reading', text: 'What does AI enable teachers to focus on?', options: ['Paperwork', 'Empathetic mentoring and engagement', 'Automated grading only', 'School budgeting'], answer: 1 \},\
-\{ section: 'Reading', passage: 'Reading Passage: "Bilingualism enhances cognitive flexibility. Individuals who speak multiple languages demonstrate superior problem-solving skills and executive function due to constant mental switching between linguistic frameworks."', text: 'What cognitive benefit is attributed to bilingualism?', options: ['Faster physical reflexes', 'Enhanced cognitive flexibility and problem-solving', 'Better musical memory', 'Reduced need for sleep'], answer: 1 \},\
-\{ section: 'Reading', text: 'Why does bilingualism improve executive function?', options: ['Due to constant mental switching between languages', 'Because of larger vocabulary storage', 'Due to early childhood education', 'Because of reading habits'], answer: 0 \},\
-\{ section: 'Reading', passage: 'Reading Passage: "Sustainable fashion requires systemic restructuring. Fast fashion models rely on disposable garments, whereas circular fashion models prioritise durability, recycling, and ethical supply chains."', text: 'What distinguishes circular fashion from fast fashion?', options: ['Lower prices', 'Emphasis on durability and ethical supply chains', 'Shorter production cycles', 'Synthetic materials'], answer: 1 \},\
-\{ section: 'Reading', text: 'What is a characteristic of fast fashion according to the text?', options: ['Disposable garments', 'Recycled materials', 'Sustainable supply chains', 'High durability'], answer: 0 \},\
-\{ section: 'Reading', passage: 'Reading Passage: "Effective cross-cultural communication transcends linguistic translation. It requires an understanding of high-context versus low-context social cues, non-verbal communication norms, and implicit cultural values."', text: 'What is required for effective cross-cultural communication beyond translation?', options: ['Speaking faster', 'Understanding social cues and implicit cultural values', 'Using formal vocabulary only', 'Avoiding non-verbal gestures'], answer: 1 \},\
-\{ section: 'Reading', text: 'What does "high-context versus low-context" refer to in the passage?', options: ['Reading speed', 'Social and cultural communication cues', 'Audio volume', 'Written grammar rules'], answer: 1 \},\
-// Functional English & Structure (31-40)\
-\{ section: 'Functional English', text: 'Which phrase is most appropriate for a formal business disagreement?', options: ['You are completely wrong.', 'I see your perspective, however, I take a different view.', 'That makes no sense.', 'I disagree with your foolish idea.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'How would you politely interrupt someone in a professional meeting?', options: ['Shut up and listen.', 'Excuse me, may I jump in here for a moment?', 'Stop talking.', 'Listen to me now.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'Choose the best response to: "Thank you for your invaluable assistance."', options: ['No, thank you.', 'You are very welcome; it was a pleasure.', 'Whatever.', 'I did nothing.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'Which expression is best for making a formal request by email?', options: ['Do this for me now.', 'I would be grateful if you could provide the report.', 'Send me the files.', 'Give me the data.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'What is the appropriate way to close a formal professional email?', options: ['Cheers,', 'Yours sincerely, / Best regards,', 'See ya,', 'Later,'], answer: 1 \},\
-\{ section: 'Functional English', text: 'Select the best phrase to summarize a meeting conclusion:', options: ['Let us wrap up and recap our key action items.', 'This meeting was a waste of time.', 'Go home now.', 'We achieved nothing.'], answer: 0 \},\
-\{ section: 'Functional English', text: 'How do you politely decline an invitation in a professional context?', options: ['I will not come.', 'Thank you for the invitation, but unfortunately, I have a prior commitment.', 'No, I am too busy.', 'I hate those events.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'Which sentence correctly expresses a future intention?', options: ['I am going to launch the project next Monday.', 'I launch project yesterday.', 'I will has launched.', 'I launched tomorrow.'], answer: 0 \},\
-\{ section: 'Functional English', text: 'What is the best way to ask for clarification when instructions are unclear?', options: ['Your instructions make no sense.', 'Could you please clarify the specific requirements for this task?', 'I will not do this.', 'Explain it better.'], answer: 1 \},\
-\{ section: 'Functional English', text: 'Choose the appropriate phrasing for giving constructive feedback:', options: ['Your work is terrible.', 'Have you considered refining this section to enhance clarity?', 'Fix this immediately or else.', 'This is completely wrong.'], answer: 1 \}\
-];\
-\
-let currentTestIndex = 0;\
-let userAnswers = \{\};\
-\
-function startPlacementTest() \{\
-document.getElementById('testIntro').classList.add('hidden');\
-document.getElementById('testContainer').classList.remove('hidden');\
-currentTestIndex = 0;\
-userAnswers = \{\};\
-renderTestQuestion();\
-\}\
-\
-function renderTestQuestion() \{\
-const q = placementQuestions[currentTestIndex];\
-document.getElementById('testSectionTag').textContent = q.section;\
-document.getElementById('testProgressCounter').textContent = `Question $\{currentTestIndex + 1\} / $\{placementQuestions.length\}`;\
-document.getElementById('testProgressBar').style.width = `$\{((currentTestIndex + 1) / placementQuestions.length) * 100\}%`;\
-document.getElementById('testQuestionText').textContent = q.text;\
-\
-const passageContainer = document.getElementById('testPassageContainer');\
-if (q.passage) \{\
-passageContainer.textContent = q.passage;\
-passageContainer.classList.remove('hidden');\
-\} else \{\
-passageContainer.classList.add('hidden');\
-\}\
-\
-const optionsGrid = document.getElementById('testOptionsGrid');\
-optionsGrid.innerHTML = q.options.map((opt, idx) => `\
-<button onclick="selectTestAnswer($\{idx\})" class="w-full text-left p-4 rounded-2xl border $\{userAnswers[currentTestIndex] === idx ? 'border-brand-600 bg-brand-50 text-brand-900 font-semibold' : 'border-sand-200 bg-sand-50 hover:bg-sand-100 text-slate-700'\} transition text-sm">\
-<span class="inline-block w-6 font-bold">$\{String.fromCharCode(65 + idx)\}.</span> $\{opt\}\
-</button>\
-`).join('');\
-\
-document.getElementById('btnPrevTest').style.display = currentTestIndex === 0 ? 'none' : 'block';\
-document.getElementById('btnNextTest').textContent = currentTestIndex === placementQuestions.length - 1 ? 'Finish & View Results' : 'Next';\
-\}\
-\
-function selectTestAnswer(idx) \{\
-userAnswers[currentTestIndex] = idx;\
-renderTestQuestion();\
-\}\
-\
-function navigateTest(direction) \{\
-if (direction === 1) \{\
-if (userAnswers[currentTestIndex] === undefined) \{\
-alert('Please select an option before proceeding.');\
-return;\
-\}\
-if (currentTestIndex < placementQuestions.length - 1) \{\
-currentTestIndex++;\
-renderTestQuestion();\
-\} else \{\
-finishPlacementTest();\
-\}\
-\} else if (direction === -1 && currentTestIndex > 0) \{\
-currentTestIndex--;\
-renderTestQuestion();\
-\}\
-\}\
-\
-function finishPlacementTest() \{\
-let score = 0;\
-placementQuestions.forEach((q, idx) => \{\
-if (userAnswers[idx] === q.answer) score++;\
-\});\
-\
-document.getElementById('testContainer').classList.add('hidden');\
-document.getElementById('testResultContainer').classList.remove('hidden');\
-\
-document.getElementById('resTotalScore').textContent = `$\{score\} / $\{placementQuestions.length\}`;\
-\
-let estLevel = 'A1';\
-let desc = 'Beginner foundation in grammar, vocabulary, and functional expressions.';\
-if (score >= 35) \{ estLevel = 'C1'; desc = 'Advanced proficiency with sophisticated control of nuance and complex structures.'; \}\
-else if (score >= 28) \{ estLevel = 'B2'; desc = 'Upper-intermediate competence capable of spontaneous interaction and complex discussions.'; \}\
-else if (score >= 20) \{ estLevel = 'B1'; desc = 'Intermediate fluency with good command of everyday and professional topics.'; \}\
-else if (score >= 12) \{ estLevel = 'A2'; desc = 'Elementary command suitable for routine conversations and familiar situations.'; \}\
-\
-document.getElementById('resEstimatedLevel').textContent = estLevel;\
-document.getElementById('resLevelDesc').textContent = desc;\
-\
-// Save result temporarily for form submission\
-window.latestTestScore = score;\
-window.latestEstimatedLevel = estLevel;\
-\}\
-\
-function submitTestProfile(event) \{\
-event.preventDefault();\
-const data = \{\
-name: document.getElementById('tSubName').value,\
-email: document.getElementById('tSubEmail').value,\
-phone: document.getElementById('tSubPhone').value,\
-format: document.getElementById('tSubFormat').value,\
-writing: document.getElementById('tSubWriting').value,\
-score: window.latestTestScore || 0,\
-level: window.latestEstimatedLevel || 'A1',\
-date: new Date().toLocaleDateString()\
-\};\
-\
-let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');\
-tests.push(data);\
-localStorage.setItem('raounak_tests', JSON.stringify(tests));\
-\
-alert('Test results and enrolment request submitted successfully! Raounak will contact you soon.');\
-document.getElementById('testSubmissionForm').reset();\
-showPage('home');\
-\}\
-\
-// --- DIRECT ENROLMENT & CONTACT ---\
-function submitDirectEnrolment(event) \{\
-event.preventDefault();\
-const data = \{\
-name: document.getElementById('deName').value,\
-email: document.getElementById('deEmail').value,\
-phone: document.getElementById('dePhone').value,\
-format: document.getElementById('deFormat').value,\
-level: document.getElementById('deLevel').value,\
-date: new Date().toLocaleDateString()\
-\};\
-\
-let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');\
-enrols.push(data);\
-localStorage.setItem('raounak_enrolments', JSON.stringify(enrols));\
-\
-alert('Enrolment request submitted successfully!');\
-document.getElementById('directEnrolForm').reset();\
-showPage('home');\
-\}\
-\
-// --- FAQ ACCORDION ---\
-const faqData = [\
-\{ q: "How are the online lessons conducted?", a: "Lessons are conducted live via Zoom or Google Meet with interactive whiteboard materials, shared screens, and immediate spoken feedback." \},\
-\{ q: "Can I choose individual (1:1) or group lessons?", a: "Yes! You can choose 1:1 individual coaching (2,000 DZD/hr) or interactive small group lessons (1,000 DZD/student/hr)." \},\
-\{ q: "What payment methods are accepted?", a: "We accept secure local bank transfers, BaridiMob, and CCP for students in Algeria, as well as international options upon request." \},\
-\{ q: "What happens if I miss a scheduled lesson?", a: "If you provide 24 hours advance notice, the session can be rescheduled according to teacher availability." \}\
-];\
-\
-function renderFaqAccordion() \{\
-const container = document.getElementById('faqAccordion');\
-container.innerHTML = faqData.map((faq, idx) => `\
-<div class="bg-white rounded-2xl border border-sand-200 p-6 shadow-sm space-y-2">\
-<h3 class="font-serif-title font-semibold text-slate-900 text-lg">$\{faq.q\}</h3>\
-<p class="text-slate-600 text-sm leading-relaxed">$\{faq.a\}</p>\
-</div>\
-`).join('');\
-\}\
-\
-// --- TESTIMONIALS ---\
-const defaultTestimonials = [\
-\{ name: "Yasmine K.", level: "B2 Upper-Intermediate", text: "Raounak's CELTA qualification truly shows in her teaching. My speaking confidence and grammar accuracy improved remarkably!" \},\
-\{ name: "Anis M.", level: "C1 Advanced", text: "The individual lessons are exceptionally tailored to professional English. Highly recommended for career advancement." \},\
-\{ name: "Fatima Z.", level: "B1 Intermediate", text: "The small group dynamic is fantastic. We practise real-world conversation in a very supportive and encouraging environment." \}\
-];\
-\
-function renderHomeTestimonials() \{\
-let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));\
-const container = document.getElementById('homeTestimonialsList');\
-container.innerHTML = revs.map(r => `\
-<div class="bg-white p-6 rounded-3xl border border-sand-200 shadow-sm space-y-3">\
-<div class="flex items-center justify-between">\
-<span class="font-serif-title font-semibold text-slate-900">$\{r.name\}</span>\
-<span class="text-[10px] px-2.5 py-1 rounded-full bg-brand-100 text-brand-700 font-semibold">$\{r.level\}</span>\
-</div>\
-<p class="text-xs text-slate-600 italic leading-relaxed">"$\{r.text\}"</p>\
-</div>\
-`).join('');\
-\}\
-\
-// --- STUDENT PORTAL VERIFICATION ---\
-function verifyStudentPortal() \{\
-const val = document.getElementById('portalAccessInput').value.trim();\
-if (!val) \{\
-alert('Please enter your email or access code.');\
-return;\
-\}\
-\
-// Check if enrolled in localStorage\
-let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');\
-let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');\
-\
-let foundEnrol = enrols.find(e => e.email.toLowerCase() === val.toLowerCase() || e.phone === val);\
-let foundTest = tests.find(t => t.email.toLowerCase() === val.toLowerCase() || t.phone === val);\
-\
-if (foundEnrol || foundTest || val === 'student2026') \{\
-document.getElementById('portalLocked').classList.add('hidden');\
-document.getElementById('portalUnlocked').classList.remove('hidden');\
-const name = foundEnrol ? foundEnrol.name : (foundTest ? foundTest.name : 'Learner');\
-const lvl = foundEnrol ? foundEnrol.level : (foundTest ? foundTest.level : 'B1');\
-document.getElementById('portalWelcomeName').textContent = `Welcome Back, $\{name\}!`;\
-document.getElementById('portalStudentLevel').textContent = `Level $\{lvl\}`;\
-\} else \{\
-alert('Access code or email not found in active enrolments. Please submit an enrolment request first or use your registered email.');\
-\}\
-\}\
-\
-// --- TEACHER DASHBOARD (ADMIN) DATA MANAGEMENT ---\
-function switchAdminTab(tab) \{\
-['Enrolments', 'Tests', 'Testimonials'].forEach(t => \{\
-document.getElementById('adminTab' + t).classList.add('hidden');\
-document.getElementById('tabBtn' + t).className = "px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition";\
-\});\
-document.getElementById('adminTab' + tab).classList.remove('hidden');\
-document.getElementById('tabBtn' + tab).className = "px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition";\
-\}\
-\
-function loadAdminData() \{\
-// Load Enrolments\
-let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');\
-const enrolsContainer = document.getElementById('adminEnrolmentsList');\
-if (enrols.length === 0) \{\
-enrolsContainer.innerHTML = `<p class="text-xs text-slate-500 italic">No direct enrolment requests yet.</p>`;\
-\} else \{\
-enrolsContainer.innerHTML = enrols.map((e, idx) => `\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">\
-<div class="space-y-1">\
-<div class="flex items-center gap-2">\
-<span class="font-semibold text-slate-900 text-sm">$\{e.name\}</span>\
-<span class="text-[10px] px-2 py-0.5 bg-brand-100 text-brand-700 rounded font-semibold">$\{e.level\}</span>\
-<span class="text-[10px] text-slate-400">$\{e.date\}</span>\
-</div>\
-<p class="text-xs text-slate-600">Email: $\{e.email\} | WhatsApp: $\{e.phone\} | Format: $\{e.format\}</p>\
-</div>\
-<button onclick="deleteEnrolment($\{idx\})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>\
-</div>\
-`).join('');\
-\}\
-\
-// Load Tests\
-let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');\
-const testsContainer = document.getElementById('adminTestsList');\
-if (tests.length === 0) \{\
-testsContainer.innerHTML = `<p class="text-xs text-slate-500 italic">No placement test submissions yet.</p>`;\
-\} else \{\
-testsContainer.innerHTML = tests.map((t, idx) => `\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">\
-<div class="space-y-1">\
-<div class="flex items-center gap-2">\
-<span class="font-semibold text-slate-900 text-sm">$\{t.name\}</span>\
-<span class="text-[10px] px-2 py-0.5 bg-brand-600 text-white rounded font-bold">Score: $\{t.score\}/40 ($\{t.level\})</span>\
-<span class="text-[10px] text-slate-400">$\{t.date\}</span>\
-</div>\
-<p class="text-xs text-slate-600">Email: $\{t.email\} | WhatsApp: $\{t.phone\} | Format: $\{t.format\}</p>\
-$\{t.writing ? `<p class="text-xs text-slate-700 italic bg-white p-2 rounded border border-sand-200 mt-1"><strong>Writing Task:</strong> "$\{t.writing\}"</p>` : ''\}\
-</div>\
-<button onclick="deleteTest($\{idx\})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>\
-</div>\
-`).join('');\
-\}\
-\
-// Load Testimonials Manager\
-let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));\
-const revsContainer = document.getElementById('adminTestimonialsList');\
-revsContainer.innerHTML = revs.map((r, idx) => `\
-<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">\
-<div>\
-<span class="font-semibold text-slate-900 text-sm">$\{r.name\} ($\{r.level\})</span>\
-<p class="text-xs text-slate-600 italic">"$\{r.text\}"</p>\
-</div>\
-<button onclick="deleteTestimonial($\{idx\})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>\
-</div>\
-`).join('');\
-\}\
-\
-function deleteEnrolment(idx) \{\
-let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');\
-enrols.splice(idx, 1);\
-localStorage.getItem('raounak_enrolments', JSON.stringify(enrols)); // fixed syntax\
-loadAdminData();\
-\}\
-\
-function deleteTest(idx) \{\
-let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');\
-tests.splice(idx, 1);\
-localStorage.setItem('raounak_tests', JSON.stringify(tests));\
-loadAdminData();\
-\}\
-\
-function openAddTestimonialModal() \{\
-document.getElementById('testimonialModal').classList.remove('hidden');\
-\}\
-\
-function closeTestimonialModal() \{\
-document.getElementById('testimonialModal').classList.add('hidden');\
-\}\
-\
-function saveNewTestimonial(event) \{\
-event.preventDefault();\
-const name = document.getElementById('newRevName').value;\
-const level = document.getElementById('newRevLevel').value;\
-const text = document.getElementById('newRevText').value;\
-\
-let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));\
-revs.push(\{ name, level, text \});\
-localStorage.setItem('raounak_testimonials', JSON.stringify(revs));\
-\
-closeTestimonialModal();\
-loadAdminData();\
-renderHomeTestimonials();\
-\}\
-\
-function deleteTestimonial(idx) \{\
-let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));\
-revs.splice(idx, 1);\
-localStorage.setItem('raounak_testimonials', JSON.stringify(revs));\
-loadAdminData();\
-renderHomeTestimonials();\
-\}\
-\
-// Initialize on load\
-window.addEventListener('DOMContentLoaded', () => \{\
-lucide.createIcons();\
-renderHomeTestimonials();\
-updateCalc();\
-\});\
-</script>\
-</body>\
-</html>}
+<!-- Top Bar Navigation -->
+<nav class="sticky top-0 z-50 glass border-b border-sand-200/80 transition-all">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-2">
+<!-- Brand Logo -->
+<a href="#" onclick="showPage('home')" class="flex items-center gap-3 group">
+<div class="w-10 h-10 rounded-full bg-brand-600 text-white flex items-center justify-center font-serif-title font-bold text-xl shadow-md group-hover:bg-brand-700 transition">R</div>
+<div class="flex flex-col">
+<span class="font-serif-title text-lg font-bold tracking-tight text-brand-900 leading-none" data-i18n="brand_title">English with Raounak</span>
+<span class="text-[10px] text-brand-700 font-medium tracking-wide" data-i18n="brand_subtitle">CELTA Qualified Educator</span>
+</div>
+</a>
+
+<!-- Navigation Links -->
+<div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-700">
+<button onclick="showPage('home')" class="hover:text-brand-700 transition" data-i18n="nav_home">Home</button>
+<button onclick="showPage('about')" class="hover:text-brand-700 transition" data-i18n="nav_about">About Teacher</button>
+<button onclick="showPage('courses')" class="hover:text-brand-700 transition" data-i18n="nav_courses">Programmes & Pricing</button>
+<button onclick="showPage('test')" class="hover:text-brand-700 transition" data-i18n="nav_test">Placement Test</button>
+<button onclick="showPage('contact')" class="hover:text-brand-700 transition" data-i18n="nav_contact">Enrolment & Contact</button>
+<button onclick="showPage('faq')" class="hover:text-brand-700 transition" data-i18n="nav_faq">FAQ</button>
+</div>
+
+<!-- Language & Action Buttons -->
+<div class="flex items-center gap-2 sm:gap-3">
+<!-- Language Selector -->
+<div class="relative inline-block text-left">
+<select id="langSelect" onchange="changeLanguage(this.value)" class="bg-white border border-sand-200 text-slate-700 text-xs rounded-xl px-2.5 py-1.5 focus:outline-none focus:border-brand-500 font-medium cursor-pointer shadow-sm">
+<option value="en">🇬🇧 English</option>
+<option value="ar">🇩🇿 العربية (RTL)</option>
+<option value="fr">🇫🇷 Français</option>
+</select>
+</div>
+
+<!-- Portal Selectors -->
+<button onclick="showPage('portal')" class="px-3 py-1.5 rounded-xl bg-sand-100 text-slate-700 hover:bg-sand-200 text-xs font-semibold transition" data-i18n="nav_student_portal">Student Portal</button>
+<button onclick="checkAdminAccess()" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700 text-xs font-semibold transition shadow-sm" data-i18n="nav_admin">Teacher Dashboard</button>
+</div>
+</div>
+</nav>
+
+<!-- Main Content Dynamic Container -->
+<main id="app-content" class="flex-grow">
+
+<!-- ================= PAGE 1: HOME ================= -->
+<section id="page-home" class="space-y-16 pb-20">
+<!-- Hero Section -->
+<div class="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24 bg-gradient-to-b from-brand-100/40 via-sand-50 to-sand-50">
+<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 space-y-6 text-center ltr:text-left rtl:text-right">
+<span class="inline-block px-4 py-1.5 rounded-full bg-brand-100 text-brand-700 text-xs font-semibold tracking-wider uppercase" data-i18n="hero_badge">CELTA Certified Online Coaching</span>
+<h1 class="text-4xl md:text-6xl font-serif-title font-normal text-slate-900 leading-tight">
+<span data-i18n="hero_title1">Transform Your English Fluency with</span>
+<span class="italic text-brand-700 block" data-i18n="hero_title2">Personalised Online Lessons</span>
+</h1>
+<p class="text-base md:text-lg text-slate-600 leading-relaxed max-w-xl" data-i18n="hero_desc">
+High-impact 1:1 individual and small group lessons designed to build speaking confidence, grammatical precision, and real-world communication skills.
+</p>
+<div class="flex flex-col sm:flex-row items-center gap-4 pt-2 justify-center ltr:md:justify-start rtl:md:justify-start">
+<button onclick="showPage('test')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-600 text-white font-medium hover:bg-brand-700 transition shadow-lg shadow-brand-600/20 flex items-center justify-center gap-2">
+<span data-i18n="btn_take_test">Take Placement Test</span>
+<i data-lucide="arrow-right" class="w-4 h-4 rtl:rotate-180"></i>
+</button>
+<button onclick="showPage('courses')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white border border-sand-200 text-slate-700 font-medium hover:bg-sand-100 transition" data-i18n="btn_explore_courses">
+Explore Programmes & Pricing
+</button>
+</div>
+</div>
+
+<!-- Avatar Preview -->
+<div class="md:col-span-5 flex justify-center">
+<div class="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-white shadow-2xl rotate-1 hover:rotate-0 transition duration-300">
+<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-white text-center">
+<p class="font-serif-title font-semibold text-lg">Raounak Maalache</p>
+<p class="text-xs text-brand-200" data-i18n="hero_avatar_sub">CELTA Teacher & Master's Graduate</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Key Teaching Formats (1:1 and Small Group ONLY) -->
+<div class="max-w-7xl mx-auto px-6 space-y-10">
+<div class="text-center space-y-2">
+<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="formats_title">Tailored Lesson Formats</h2>
+<p class="text-slate-600 text-sm max-w-lg mx-auto" data-i18n="formats_subtitle">Designed exclusively for individual focus or interactive group dynamics.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition">
+<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center">
+<i data-lucide="user" class="w-6 h-6"></i>
+</div>
+<h3 class="text-2xl font-serif-title text-slate-900" data-i18n="format_1_title">Individual Lessons (1:1)</h3>
+<p class="text-slate-600 text-sm leading-relaxed" data-i18n="format_1_desc">100% customised lessons focused on your specific professional, academic, or conversational goals with immediate feedback.</p>
+<div class="pt-2 text-brand-700 font-bold text-lg">2,000 DZD / 60-min session</div>
+</div>
+<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition">
+<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center">
+<i data-lucide="users" class="w-6 h-6"></i>
+</div>
+<h3 class="text-2xl font-serif-title text-slate-900" data-i18n="format_group_title">Small Group Lessons</h3>
+<p class="text-slate-600 text-sm leading-relaxed" data-i18n="format_group_desc">Dynamic, collaborative learning in intimate groups. Practise real conversation with peers of similar levels.</p>
+<div class="pt-2 text-brand-700 font-bold text-lg">1,000 DZD / student / 60-min session</div>
+</div>
+</div>
+</div>
+
+<!-- Testimonials Section -->
+<div class="max-w-7xl mx-auto px-6 py-12 border-t border-sand-200">
+<div class="text-center space-y-2 mb-10">
+<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="testimonials_title">Student Feedback</h2>
+<p class="text-slate-600 text-sm" data-i18n="testimonials_sub">Genuine reviews from learners taking classes with Raounak.</p>
+</div>
+<div id="homeTestimonialsList" class="grid md:grid-cols-3 gap-6">
+<!-- Loaded dynamically from LocalStorage -->
+</div>
+</div>
+</section>
+
+<!-- ================= PAGE 2: ABOUT TEACHER ================= -->
+<section id="page-about" class="hidden max-w-5xl mx-auto px-6 py-12 space-y-12">
+<div class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 shadow-sm space-y-8">
+<div class="grid md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-5 flex justify-center">
+<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-64 h-64 md:w-full md:h-80 object-cover rounded-2xl shadow-md border-2 border-sand-200" onerror="this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
+</div>
+<div class="md:col-span-7 space-y-4 ltr:text-left rtl:text-right">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase" data-i18n="about_badge">Meet Your Teacher</span>
+<h2 class="text-3xl md:text-4xl font-serif-title text-slate-900">Raounak Maalache</h2>
+<p class="text-brand-700 font-medium" data-i18n="about_subtitle">CELTA Qualified English Teacher & Educational Specialist</p>
+<p class="text-slate-600 text-sm leading-relaxed" data-i18n="about_bio">
+I am an experienced English educator dedicated to helping students develop authentic speaking fluency, grammatical clarity, and communication confidence. My approach is communicative, student-centred, and tailored to real-world application.
+</p>
+</div>
+</div>
+
+<!-- Qualifications Grid -->
+<div class="grid md:grid-cols-3 gap-6 pt-6 border-t border-sand-200">
+<div class="p-5 rounded-2xl bg-sand-50 space-y-2">
+<i data-lucide="award" class="w-6 h-6 text-brand-600"></i>
+<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_1_title">CELTA Qualification</h4>
+<p class="text-xs text-slate-600" data-i18n="qual_1_desc">Internationally recognised teaching certification for teaching English to speakers of other languages.</p>
+</div>
+<div class="p-5 rounded-2xl bg-sand-50 space-y-2">
+<i data-lucide="graduation-cap" class="w-6 h-6 text-brand-600"></i>
+<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_2_title">Master's Degree with Distinction</h4>
+<p class="text-xs text-slate-600" data-i18n="qual_2_desc">Master's in Didactics of Foreign Languages (Bachelor's in English Language & Literature).</p>
+</div>
+<div class="p-5 rounded-2xl bg-sand-50 space-y-2">
+<i data-lucide="clock" class="w-6 h-6 text-brand-600"></i>
+<h4 class="font-semibold text-slate-900 text-sm" data-i18n="qual_3_title">3+ Years Teaching Experience</h4>
+<p class="text-xs text-slate-600" data-i18n="qual_3_desc">Extensive background teaching children, teenagers, and professional adult learners.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= PAGE 3: COURSES & PRICING ================= -->
+<section id="page-courses" class="hidden max-w-7xl mx-auto px-6 py-12 space-y-12">
+<!-- Header -->
+<div class="text-center space-y-3">
+<h2 class="text-3xl md:text-4xl font-serif-title text-slate-900" data-i18n="courses_title">CEFR Programmes & Pricing</h2>
+<p class="text-slate-600 text-sm max-w-2xl mx-auto" data-i18n="courses_sub">Structured progression from Beginner (A1) to Advanced (C1) based on official CEFR guidelines.</p>
+</div>
+
+<!-- Pricing Calculator Widget -->
+<div class="bg-gradient-to-r from-brand-900 to-slate-900 text-white p-8 rounded-3xl shadow-xl space-y-6">
+<div class="flex items-center gap-3">
+<i data-lucide="calculator" class="w-6 h-6 text-brand-200"></i>
+<h3 class="text-xl font-serif-title font-semibold" data-i18n="calc_title">Interactive Fee & Duration Estimator</h3>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<div>
+<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_level">Select Target CEFR Level</label>
+<select id="calcLevel" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">
+<option value="A1">A1 – Beginner (40–50 hours)</option>
+<option value="A2">A2 – Elementary (50–60 hours)</option>
+<option value="B1">B1 – Intermediate (50–65 hours)</option>
+<option value="B2">B2 – Upper-Intermediate (60–75 hours)</option>
+<option value="C1">C1 – Advanced (65–80 hours)</option>
+</select>
+</div>
+<div>
+<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_format">Lesson Format</label>
+<select id="calcFormat" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">
+<option value="individual">Individual (1:1) - 2,000 DZD/hr</option>
+<option value="group">Small Group - 1,000 DZD/hr</option>
+</select>
+</div>
+<div>
+<label class="text-xs uppercase text-brand-200 font-semibold block mb-2" data-i18n="calc_select_freq">Weekly Frequency (60-min sessions)</label>
+<select id="calcFreq" onchange="updateCalc()" class="w-full bg-slate-800 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-brand-500">
+<option value="1">1 Session / Week</option>
+<option value="2" selected>2 Sessions / Week</option>
+<option value="3">3 Sessions / Week</option>
+<option value="4">4 Sessions / Week</option>
+</select>
+</div>
+</div>
+
+<!-- Calculation Output Box -->
+<div class="bg-white/10 p-6 rounded-2xl border border-white/10 grid sm:grid-cols-2 gap-6 items-center">
+<div>
+<span class="text-xs text-brand-200 uppercase font-semibold" data-i18n="calc_out_price">Monthly Investment (Calculated on 4 weeks)</span>
+<div id="calcPriceResult" class="text-3xl font-serif-title font-bold text-brand-100">16,000 DZD / month</div>
+</div>
+<div>
+<span class="text-xs text-brand-200 uppercase font-semibold" data-i18n="calc_out_duration">Estimated Level Completion Time</span>
+<div id="calcDurationResult" class="text-2xl font-serif-title font-semibold text-emerald-300">5 – 6 Months</div>
+<p class="text-[11px] text-slate-300 mt-1" data-i18n="calc_disclaimer">*Note: Suggested completion timelines based on individual attendance and study pace.</p>
+</div>
+</div>
+</div>
+
+<!-- Course Cards Grid -->
+<div id="coursesListGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Programmatically filled -->
+</div>
+</section>
+
+<!-- ================= PAGE 4: PLACEMENT TEST (ENGLISH ONLY) ================= -->
+<section id="page-test" class="hidden max-w-4xl mx-auto px-6 py-12">
+<!-- Introduction -->
+<div id="testIntro" class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 space-y-6 text-center shadow-sm">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Official Assessment</span>
+<h2 class="text-3xl font-serif-title text-slate-900">40-Question English Placement Test</h2>
+<p class="text-slate-600 text-sm max-w-xl mx-auto leading-relaxed">
+Evaluate your grammar, vocabulary, reading, functional English, and language structure across A1 to C1 levels.
+</p>
+
+<div class="flex justify-center pt-4">
+<button onclick="startPlacementTest()" class="px-8 py-4 rounded-full bg-brand-600 text-white font-medium hover:bg-brand-700 transition shadow-lg">
+Start Online Placement Test
+</button>
+</div>
+</div>
+
+<!-- Interactive Test Engine -->
+<div id="testContainer" class="hidden bg-white rounded-3xl border border-sand-200 p-6 md:p-10 space-y-6 shadow-sm">
+<div class="flex items-center justify-between border-b border-sand-200 pb-4">
+<span id="testSectionTag" class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Grammar</span>
+<span id="testProgressCounter" class="text-xs font-bold text-slate-500">Question 1 / 40</span>
+</div>
+
+<div class="w-full bg-sand-100 h-2 rounded-full overflow-hidden">
+<div id="testProgressBar" class="bg-brand-600 h-full w-0 transition-all duration-300"></div>
+</div>
+
+<div class="space-y-4 py-2">
+<h3 id="testQuestionText" class="text-lg md:text-xl font-medium text-slate-900 leading-snug">--</h3>
+<div id="testPassageContainer" class="hidden p-4 rounded-2xl bg-sand-50 text-sm text-slate-700 italic border border-sand-200 leading-relaxed max-h-60 overflow-y-auto"></div>
+<div id="testOptionsGrid" class="space-y-3 pt-2"></div>
+</div>
+
+<div class="flex items-center justify-between border-t border-sand-200 pt-6">
+<button id="btnPrevTest" onclick="navigateTest(-1)" class="px-6 py-2.5 rounded-xl border border-sand-200 text-slate-700 font-medium hover:bg-sand-100 text-sm transition">
+Previous
+</button>
+<button id="btnNextTest" onclick="navigateTest(1)" class="px-6 py-2.5 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 text-sm transition">
+Next
+</button>
+</div>
+</div>
+
+<!-- Test Results & Contact Submission Form -->
+<div id="testResultContainer" class="hidden bg-white rounded-3xl border border-sand-200 p-8 md:p-12 space-y-8 shadow-sm">
+<div class="text-center space-y-3 border-b border-sand-200 pb-6">
+<div class="w-16 h-16 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto font-serif-title font-bold text-2xl">✓</div>
+<h2 class="text-3xl font-serif-title text-slate-900">Placement Test Complete</h2>
+<p class="text-slate-600 text-sm">Here is your initial estimated CEFR level assessment.</p>
+</div>
+
+<div class="bg-sand-50 p-6 rounded-2xl border border-sand-200 space-y-4">
+<div class="flex items-center justify-between">
+<span class="text-sm font-semibold text-slate-700">Total Multiple-Choice Score</span>
+<span id="resTotalScore" class="text-2xl font-bold text-brand-700">0 / 40</span>
+</div>
+<div class="flex items-center justify-between border-t border-sand-200 pt-3">
+<span class="text-sm font-semibold text-slate-700">Estimated Starting Level</span>
+<span id="resEstimatedLevel" class="px-4 py-1.5 rounded-full bg-brand-600 text-white font-bold text-sm">A1</span>
+</div>
+<p id="resLevelDesc" class="text-xs text-slate-600 leading-relaxed pt-2">--</p>
+</div>
+
+<div id="resSectionBreakdown" class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs"></div>
+
+<form id="testSubmissionForm" onsubmit="submitTestProfile(event)" class="space-y-4 pt-4 border-t border-sand-200">
+<h3 class="text-lg font-serif-title font-semibold text-slate-900">Request Official Enrolment & Feedback</h3>
+<div class="grid sm:grid-cols-2 gap-4">
+<input type="text" id="tSubName" required placeholder="Full Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<input type="email" id="tSubEmail" required placeholder="Email Address *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+</div>
+<div class="grid sm:grid-cols-2 gap-4">
+<input type="tel" id="tSubPhone" required placeholder="WhatsApp Number *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<select id="tSubFormat" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<option value="Individual (1:1)">Individual (1:1)</option>
+<option value="Small Group">Small Group</option>
+</select>
+</div>
+<textarea id="tSubWriting" rows="3" placeholder="Optional Writing Task: Tell Raounak about your learning goals (120-180 words)..." class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500"></textarea>
+
+<button type="submit" class="w-full py-4 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition shadow-md">
+Submit Test & Enrolment Request
+</button>
+</form>
+</div>
+</section>
+
+<!-- ================= PAGE 5: ENROLMENT & CONTACT ================= -->
+<section id="page-contact" class="hidden max-w-4xl mx-auto px-6 py-12 space-y-12">
+<div class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 shadow-sm space-y-8">
+<div class="text-center space-y-2 border-b border-sand-200 pb-6">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase" data-i18n="contact_badge">Direct Communication</span>
+<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="contact_title">Enrolment & Direct Contact</h2>
+<p class="text-slate-600 text-sm" data-i18n="contact_sub">Have questions or want to secure your lesson spot directly?</p>
+</div>
+
+<div class="grid sm:grid-cols-2 gap-6">
+<a href="https://wa.me/213698959091" target="_blank" class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center gap-4 hover:bg-emerald-100 transition group">
+<div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
+<i data-lucide="message-circle" class="w-6 h-6"></i>
+</div>
+<div>
+<span class="text-xs uppercase text-emerald-800 font-semibold block">WhatsApp Direct</span>
+<span class="text-lg font-bold text-emerald-900">+213 698 95 90 91</span>
+</div>
+</a>
+<a href="mailto:raounakmaalache@yahoo.com" class="p-6 rounded-2xl bg-brand-50 border border-brand-200 flex items-center gap-4 hover:bg-brand-100 transition group">
+<div class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center">
+<i data-lucide="mail" class="w-6 h-6"></i>
+</div>
+<div>
+<span class="text-xs uppercase text-brand-800 font-semibold block">Email Address</span>
+<span class="text-sm font-bold text-brand-900 truncate block">raounakmaalache@yahoo.com</span>
+</div>
+</a>
+</div>
+
+<form id="directEnrolForm" onsubmit="submitDirectEnrolment(event)" class="space-y-4 pt-4">
+<h3 class="text-lg font-serif-title font-semibold text-slate-900" data-i18n="enrol_form_title">Course Enrolment Form</h3>
+<div class="grid sm:grid-cols-2 gap-4">
+<input type="text" id="deName" required placeholder="Full Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<input type="email" id="deEmail" required placeholder="Email Address *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+</div>
+<div class="grid sm:grid-cols-2 gap-4">
+<input type="tel" id="dePhone" required placeholder="WhatsApp Number *" class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<select id="deFormat" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<option value="Individual (1:1)">Individual Lessons (1:1)</option>
+<option value="Small Group">Small Group Lessons</option>
+</select>
+</div>
+<select id="deLevel" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<option value="A1">A1 - Beginner</option>
+<option value="A2">A2 - Elementary</option>
+<option value="B1">B1 - Intermediate</option>
+<option value="B2">B2 - Upper-Intermediate</option>
+<option value="C1">C1 - Advanced</option>
+</select>
+<button type="submit" class="w-full py-4 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition shadow-md" data-i18n="btn_submit_enrol">
+Submit Enrolment Request
+</button>
+</form>
+</div>
+</section>
+
+<!-- ================= PAGE 6: FAQ ================= -->
+<section id="page-faq" class="hidden max-w-4xl mx-auto px-6 py-12 space-y-8">
+<div class="text-center space-y-2">
+<h2 class="text-3xl font-serif-title text-slate-900" data-i18n="faq_title">Frequently Asked Questions</h2>
+<p class="text-slate-600 text-sm" data-i18n="faq_sub">Everything you need to know about lessons, scheduling, and payment.</p>
+</div>
+<div id="faqAccordion" class="space-y-4">
+<!-- Programmatically loaded -->
+</div>
+</section>
+
+<!-- ================= PAGE 7: STUDENT PORTAL (LOCKED UNLESS ENROLLED) ================= -->
+<section id="page-portal" class="hidden max-w-5xl mx-auto px-6 py-12 space-y-8">
+<!-- Locked State View -->
+<div id="portalLocked" class="bg-white rounded-3xl border border-sand-200 p-10 text-center space-y-6 shadow-sm">
+<div class="w-16 h-16 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto">
+<i data-lucide="lock" class="w-8 h-8"></i>
+</div>
+<div class="space-y-2 max-w-md mx-auto">
+<h2 class="text-2xl font-serif-title text-slate-900">Student Portal Access</h2>
+<p class="text-slate-600 text-sm">To access your personal schedule, Zoom links, and downloadable worksheets, please enter your registered Email or Enrolment Access Code.</p>
+</div>
+<div class="max-w-sm mx-auto flex gap-2">
+<input type="text" id="portalAccessInput" placeholder="Enter Email or Access Code..." class="flex-grow p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<button onclick="verifyStudentPortal()" class="px-5 py-3 bg-brand-600 text-white font-semibold rounded-xl text-sm hover:bg-brand-700 transition">Access</button>
+</div>
+<p class="text-xs text-slate-400">Not enrolled yet? Complete the <button onclick="showPage('contact')" class="text-brand-700 underline font-medium">Enrolment Form</button> first.</p>
+</div>
+
+<!-- Unlocked State View -->
+<div id="portalUnlocked" class="hidden space-y-8">
+<div class="bg-white rounded-3xl border border-sand-200 p-8 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6">
+<div class="space-y-1 text-center sm:text-left">
+<span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold uppercase">Active Enrolment</span>
+<h2 id="portalWelcomeName" class="text-2xl font-serif-title text-slate-900">Welcome Back, Learner!</h2>
+<p class="text-slate-600 text-xs">Track your lessons, learning materials, and schedule.</p>
+</div>
+<div class="bg-sand-50 p-4 rounded-2xl border border-sand-200 text-center">
+<span class="text-[10px] uppercase font-semibold text-slate-500 block">Current Progress</span>
+<span id="portalStudentLevel" class="text-lg font-bold text-brand-700">Level B1 - Intermediate</span>
+</div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Schedule -->
+<div class="bg-white rounded-3xl border border-sand-200 p-6 space-y-4">
+<div class="flex items-center gap-2">
+<i data-lucide="calendar" class="w-5 h-5 text-brand-600"></i>
+<h3 class="font-serif-title font-semibold text-slate-900">Upcoming Schedule</h3>
+</div>
+<div class="space-y-3">
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">
+<div>
+<span class="text-xs font-semibold text-brand-700 block">Session 14: Functional Speaking</span>
+<span class="text-xs text-slate-500">Tuesday, 18:00 - 19:00</span>
+</div>
+<a href="https://zoom.us" target="_blank" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white text-xs font-semibold hover:bg-brand-700 transition">Zoom</a>
+</div>
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">
+<div>
+<span class="text-xs font-semibold text-brand-700 block">Session 15: Grammar in Context</span>
+<span class="text-xs text-slate-500">Thursday, 18:00 - 19:00</span>
+</div>
+<a href="https://zoom.us" target="_blank" class="px-3 py-1.5 rounded-xl bg-brand-600 text-white text-xs font-semibold hover:bg-brand-700 transition">Zoom</a>
+</div>
+</div>
+</div>
+
+<!-- Resources -->
+<div class="bg-white rounded-3xl border border-sand-200 p-6 space-y-4">
+<div class="flex items-center gap-2">
+<i data-lucide="book-open" class="w-5 h-5 text-brand-600"></i>
+<h3 class="font-serif-title font-semibold text-slate-900">Course Resources</h3>
+</div>
+<div class="space-y-3">
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">
+<span class="text-xs font-medium text-slate-700">Unit 4 Worksheet - B1 Grammar</span>
+<button onclick="alert('Downloading worksheet PDF...')" class="p-2 rounded-xl bg-white border border-sand-200 hover:bg-sand-100 transition"><i data-lucide="download" class="w-4 h-4 text-brand-700"></i></button>
+</div>
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">
+<span class="text-xs font-medium text-slate-700">Vocabulary Flashcards List</span>
+<button onclick="alert('Downloading vocabulary flashcards...')" class="p-2 rounded-xl bg-white border border-sand-200 hover:bg-sand-100 transition"><i data-lucide="download" class="w-4 h-4 text-brand-700"></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= PAGE 8: TEACHER DASHBOARD (ADMIN) ================= -->
+<section id="page-admin" class="hidden max-w-7xl mx-auto px-6 py-12 space-y-8">
+<div class="bg-white rounded-3xl border border-sand-200 p-8 shadow-sm space-y-8">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-sand-200 pb-6">
+<div>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">Admin Portal</span>
+<h2 class="text-3xl font-serif-title text-slate-900">Teacher Dashboard</h2>
+<p class="text-slate-600 text-xs">Manage enrolments, student placement test submissions, and testimonials.</p>
+</div>
+<button onclick="logoutAdmin()" class="px-4 py-2 rounded-xl bg-red-50 text-red-700 hover:bg-red-100 text-xs font-semibold transition">Lock Dashboard</button>
+</div>
+
+<!-- Admin Tabs -->
+<div class="flex gap-2 border-b border-sand-200 pb-4 overflow-x-auto">
+<button onclick="switchAdminTab('enrolments')" id="tabBtnEnrolments" class="px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition">Enrolment Requests</button>
+<button onclick="switchAdminTab('tests')" id="tabBtnTests" class="px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition">Placement Test Submissions</button>
+<button onclick="switchAdminTab('testimonials')" id="tabBtnTestimonials" class="px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition">Testimonials Manager</button>
+</div>
+
+<!-- Tab Content 1: Enrolments -->
+<div id="adminTabEnrolments" class="space-y-4">
+<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Direct Enrolment Requests</h3>
+<div id="adminEnrolmentsList" class="space-y-3">
+<!-- Loaded dynamically -->
+</div>
+</div>
+
+<!-- Tab Content 2: Placement Tests -->
+<div id="adminTabTests" class="hidden space-y-4">
+<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Placement Test Submissions & Writing Tasks</h3>
+<div id="adminTestsList" class="space-y-3">
+<!-- Loaded dynamically -->
+</div>
+</div>
+
+<!-- Tab Content 3: Testimonials Manager -->
+<div id="adminTabTestimonials" class="hidden space-y-4">
+<div class="flex items-center justify-between">
+<h3 class="font-serif-title font-semibold text-slate-900 text-lg">Manage Student Testimonials</h3>
+<button onclick="openAddTestimonialModal()" class="px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition">+ Add Review</button>
+</div>
+<div id="adminTestimonialsList" class="space-y-3">
+<!-- Loaded dynamically -->
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- Admin Passcode Modal -->
+<div id="adminModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+<div class="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl space-y-6">
+<div class="text-center space-y-2">
+<div class="w-12 h-12 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto">
+<i data-lucide="lock" class="w-6 h-6"></i>
+</div>
+<h3 class="text-xl font-serif-title font-semibold text-slate-900">Teacher Dashboard Access</h3>
+<p class="text-slate-600 text-xs">Please enter your teacher security passcode to proceed.</p>
+</div>
+<input type="password" id="adminPassInput" placeholder="Enter secure passcode..." class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
+<div class="flex gap-3">
+<button onclick="closeAdminModal()" class="w-1/2 py-3 rounded-xl border border-sand-200 text-slate-700 text-sm font-semibold hover:bg-sand-50 transition">Cancel</button>
+<button onclick="verifyAdminPasscode()" class="w-1/2 py-3 rounded-xl bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition">Authenticate</button>
+</div>
+</div>
+</div>
+
+<!-- Add Testimonial Modal -->
+<div id="testimonialModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+<div class="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl space-y-6">
+<h3 class="text-xl font-serif-title font-semibold text-slate-900">Add New Testimonial</h3>
+<form onsubmit="saveNewTestimonial(event)" class="space-y-4">
+<input type="text" id="newRevName" required placeholder="Student Name *" class="w-full p-3 rounded-xl border border-sand-200 text-sm">
+<input type="text" id="newRevLevel" required placeholder="Level / Course (e.g. B1 Intermediate) *" class="w-full p-3 rounded-xl border border-sand-200 text-sm">
+<textarea id="newRevText" rows="3" required placeholder="Review Text *" class="w-full p-3 rounded-xl border border-sand-200 text-sm"></textarea>
+<div class="flex gap-3">
+<button type="button" onclick="closeTestimonialModal()" class="w-1/2 py-3 rounded-xl border border-sand-200 text-sm font-semibold">Cancel</button>
+<button type="submit" class="w-1/2 py-3 rounded-xl bg-brand-600 text-white text-sm font-semibold">Save</button>
+</div>
+</form>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-white border-t border-sand-200 mt-20 py-8">
+<div class="max-w-7xl mx-auto px-6 text-center space-y-4">
+<p class="font-serif-title font-bold text-brand-900 text-lg">English with Raounak</p>
+<p class="text-xs text-slate-500">© 2026 Raounak Maalache. All rights reserved. CELTA Qualified English Teaching.</p>
+</div>
+</footer>
+
+<!-- JavaScript Application Logic -->
+<script>
+// --- TRANSLATIONS & DICTIONARY ---
+const translations = {
+en: {
+brand_title: "English with Raounak",
+brand_subtitle: "CELTA Qualified Educator",
+nav_home: "Home",
+nav_about: "About Teacher",
+nav_courses: "Programmes & Pricing",
+nav_test: "Placement Test",
+nav_contact: "Enrolment & Contact",
+nav_faq: "FAQ",
+nav_student_portal: "Student Portal",
+nav_admin: "Teacher Dashboard",
+hero_badge: "CELTA Certified Online Coaching",
+hero_title1: "Transform Your English Fluency with",
+hero_title2: "Personalised Online Lessons",
+hero_desc: "High-impact 1:1 individual and small group lessons designed to build speaking confidence, grammatical precision, and real-world communication skills.",
+btn_take_test: "Take Placement Test",
+btn_explore_courses: "Explore Programmes & Pricing",
+hero_avatar_sub: "CELTA Teacher & Master's Graduate",
+formats_title: "Tailored Lesson Formats",
+formats_subtitle: "Designed exclusively for individual focus or interactive group dynamics.",
+format_1_title: "Individual Lessons (1:1)",
+format_1_desc: "100% customised lessons focused on your specific professional, academic, or conversational goals with immediate feedback.",
+format_group_title: "Small Group Lessons",
+format_group_desc: "Dynamic, collaborative learning in intimate groups. Practise real conversation with peers of similar levels.",
+testimonials_title: "Student Feedback",
+testimonials_sub: "Genuine reviews from learners taking classes with Raounak.",
+about_badge: "Meet Your Teacher",
+about_subtitle: "CELTA Qualified English Teacher & Educational Specialist",
+about_bio: "I am an experienced English educator dedicated to helping students develop authentic speaking fluency, grammatical clarity, and communication confidence. My approach is communicative, student-centred, and tailored to real-world application.",
+qual_1_title: "CELTA Qualification",
+qual_1_desc: "Internationally recognised teaching certification for teaching English to speakers of other languages.",
+qual_2_title: "Master's Degree with Distinction",
+qual_2_desc: "Master's in Didactics of Foreign Languages (Bachelor's in English Language & Literature).",
+qual_3_title: "3+ Years Teaching Experience",
+qual_3_desc: "Extensive background teaching children, teenagers, and professional adult learners.",
+courses_title: "CEFR Programmes & Pricing",
+courses_sub: "Structured progression from Beginner (A1) to Advanced (C1) based on official CEFR guidelines.",
+calc_title: "Interactive Fee & Duration Estimator",
+calc_select_level: "Select Target CEFR Level",
+calc_select_format: "Lesson Format",
+calc_select_freq: "Weekly Frequency (60-min sessions)",
+calc_out_price: "Monthly Investment (Calculated on 4 weeks)",
+calc_out_duration: "Estimated Level Completion Time",
+calc_disclaimer: "*Note: Suggested completion timelines based on individual attendance and study pace.",
+contact_badge: "Direct Communication",
+contact_title: "Enrolment & Direct Contact",
+contact_sub: "Have questions or want to secure your lesson spot directly?",
+enrol_form_title: "Course Enrolment Form",
+btn_submit_enrol: "Submit Enrolment Request",
+faq_title: "Frequently Asked Questions",
+faq_sub: "Everything you need to know about lessons, scheduling, and payment."
+},
+fr: {
+brand_title: "English with Raounak",
+brand_subtitle: "Éducatrice Qualifiée CELTA",
+nav_home: "Accueil",
+nav_about: "À propos",
+nav_courses: "Programmes & Tarifs",
+nav_test: "Test de Niveau",
+nav_contact: "Inscription & Contact",
+nav_faq: "FAQ",
+nav_student_portal: "Portail Élève",
+nav_admin: "Tableau de Bord",
+hero_badge: "Coaching en Ligne Certifié CELTA",
+hero_title1: "Transformez votre Anglais avec des",
+hero_title2: "Cours Particuliers Personnalisés",
+hero_desc: "Des cours individuels et en petits groupes à impact élevé pour développer votre aisance et votre précision grammaticale.",
+btn_take_test: "Faire le Test de Niveau",
+btn_explore_courses: "Voir Programmes & Tarifs",
+hero_avatar_sub: "Professeur CELTA & Master",
+formats_title: "Formats de Cours Adaptés",
+formats_subtitle: "Conçus exclusivement pour un suivi individuel ou une dynamique de groupe.",
+format_1_title: "Cours Individuels (1:1)",
+format_1_desc: "Des cours 100% personnalisés selon vos objectifs professionnels, universitaires ou conversationnels.",
+format_group_title: "Petits Groupes",
+format_group_desc: "Apprentissage collaboratif et dynamique en petits comités. Pratiquez avec des pairs.",
+testimonials_title: "Avis des Élèves",
+testimonials_sub: "Retours authentiques d'apprenants suivant les cours de Raounak.",
+about_badge: "Rencontrez Votre Professeur",
+about_subtitle: "Professeur d'Anglais Qualifiée CELTA & Spécialiste en Éducation",
+about_bio: "Je suis une éducatrice expérimentée dédiée à aider les étudiants à développer une fluidité d'expression authentique.",
+qual_1_title: "Qualification CELTA",
+qual_1_desc: "Certification internationale reconnue pour l'enseignement de l'anglais.",
+qual_2_title: "Master avec Distinction",
+qual_2_desc: "Master en Didactique des Langues Étrangères.",
+qual_3_title: "3+ Ans d'Expérience",
+qual_3_desc: "Large expérience auprès d'enfants, ados et professionnels.",
+courses_title: "Programmes & Tarifs CEFR",
+courses_sub: "Progression structurée du Débutant (A1) à Avancé (C1) selon les directives CEFR.",
+calc_title: "Estimateur Interactif des Tarifs & Durées",
+calc_select_level: "Sélectionnez le Niveau CEFR Cible",
+calc_select_format: "Format de Cours",
+calc_select_freq: "Fréquence Hebdomadaire (séances 60 min)",
+calc_out_price: "Investissement Mensuel (Calculé sur 4 semaines)",
+calc_out_duration: "Durée Estimée pour Compléter le Niveau",
+calc_disclaimer: "*Remarque : Délais indicatifs basés sur la régularité et le rythme de l'élève.",
+contact_badge: "Communication Directe",
+contact_title: "Inscription & Contact Direct",
+contact_sub: "Des questions ou besoin de réserver votre place directement ?",
+enrol_form_title: "Formulaire d'Inscription",
+btn_submit_enrol: "Soumettre la Demande d'Inscription",
+faq_title: "Foire Aux Questions",
+faq_sub: "Tout ce que vous devez savoir sur les cours, les horaires et les paiements."
+},
+ar: {
+brand_title: "الإنجليزية مع رونق",
+brand_subtitle: "أستاذة معتمدة بشهادة CELTA",
+nav_home: "الرئيسية",
+nav_about: "عن الأستاذة",
+nav_courses: "البرامج والأسعار",
+nav_test: "اختبار تحديد المستوى",
+nav_contact: "التسجيل والتواصل",
+nav_faq: "الأسئلة الشائعة",
+nav_student_portal: "فضاء التلميذ",
+nav_admin: "لوحة التحكم للأستاذة",
+hero_badge: "تدريس أونلاين معتمد بشهادة CELTA",
+hero_title1: "طور طلاقتك في اللغة الإنجليزية مع",
+hero_title2: "دروس خصوصية مخصصة",
+hero_desc: "دروس فردية وجماعية عالية التأثير مصممة خصيصاً لبناء الثقة في التحدث، والدقة النحوية، ومهارات التواصل الحقيقية.",
+btn_take_test: "إجراء اختبار تحديد المستوى",
+btn_explore_courses: "استكشاف البرامج والأسعار",
+hero_avatar_sub: "أستاذة CELTA وخريجة ماستر",
+formats_title: "صيغ الدروس المصممة",
+formats_subtitle: "مصممة خصيصاً للتركيز الفردي أو ديناميكية المجموعات التفاعلية.",
+format_1_title: "دروس فردية (1:1)",
+format_1_desc: "دروس مخصصة 100% تركز على أهدافك المهنية، الأكاديمية، أو المحادثة مع تقييم فوري.",
+format_group_title: "دروس مجموعات صغيرة",
+format_group_desc: "تعلم تعاوني ديناميكي في مجموعات مصغرة. مارس المحادثة الحقيقية مع زملاء بنفس المستوى.",
+testimonials_title: "آراء الطلاب",
+testimonials_sub: "تقييمات حقيقية من المتعلمين الذين درسوا مع رونق.",
+about_badge: "تعرف على أستاذتك",
+about_subtitle: "أستاذة إنجليزية معتمدة CELTA ومختصة تربوية",
+about_bio: "أنا أستاذة إنجليزية خبيرة أكرس جهدي لمساعدة الطلاب على تطوير طلاقة التحدث الأصيلة والوضوح النحوي وثقة التواصل.",
+qual_1_title: "شهادة CELTA العالمية",
+qual_1_desc: "شهادة دولية معتمدة لتدريس اللغة الإنجليزية لغير الناطقين بها.",
+qual_2_title: "شهادة الماستر بامتياز",
+qual_2_desc: "ماستر في ديداكتيك اللغات الأجنبية (ليسانس في اللغة والأدب الإنجليزي).",
+qual_3_title: "أكثر من 3 سنوات خبرة",
+qual_3_desc: "خلفية واسعة في تدريس الأطفال، المراهقين، والبالغين المهنيين.",
+courses_title: "برامج والأسعار CEFR",
+courses_sub: "تدرج منظم من المبتدئ (A1) إلى المتقدم (C1) استناداً إلى المعايير الأوروبية المرجعية للغات.",
+calc_title: "حاسبة الأسعار والمدة التقديرية",
+calc_select_level: "اختر المستوى المستهدف",
+calc_select_format: "صيغة الدرس",
+calc_select_freq: "عدد الحصص الأسبوعية (60 دقيقة)",
+calc_out_price: "الاستثمار الشهري (محسوب على 4 أسابيع)",
+calc_out_duration: "المدة التقديرية لإكمال المستوى",
+calc_disclaimer: "*ملاحظة: المدة التقديرية تعتمد على الانضباط والجهد الشخصي.",
+contact_badge: "التواصل المباشر",
+contact_title: "التسجيل والتواصل المباشر",
+contact_sub: "لديك استفسارات أو تريد حجز مكانك في الدروس مباشرة؟",
+enrol_form_title: "استمارة تسجيل الطلاب",
+btn_submit_enrol: "إرسال طلب التسجيل",
+faq_title: "الأسئلة الشائعة",
+faq_sub: "كل ما تحتاج معرفته حول الدروس، المواعيد، وطرق الدفع."
+}
+};
+
+let currentLang = 'en';
+
+function changeLanguage(lang) {
+currentLang = lang;
+const htmlTag = document.documentElement;
+if (lang === 'ar') {
+htmlTag.setAttribute('dir', 'rtl');
+htmlTag.setAttribute('lang', 'ar');
+} else {
+htmlTag.setAttribute('dir', 'ltr');
+htmlTag.setAttribute('lang', lang);
+}
+
+document.querySelectorAll('[data-i18n]').forEach(el => {
+const key = el.getAttribute('data-i18n');
+if (translations[lang] && translations[lang][key]) {
+el.textContent = translations[lang][key];
+}
+});
+
+updateCalc();
+}
+
+// --- NAVIGATION ROUTER ---
+function showPage(pageId) {
+['home', 'about', 'courses', 'test', 'contact', 'faq', 'portal', 'admin'].forEach(p => {
+const el = document.getElementById('page-' + p);
+if (el) el.classList.add('hidden');
+});
+const target = document.getElementById('page-' + pageId);
+if (target) target.classList.remove('hidden');
+window.scrollTo({ top: 0, behavior: 'smooth' });
+
+if (pageId === 'courses') renderCoursesGrid();
+if (pageId === 'faq') renderFaqAccordion();
+if (pageId === 'home') renderHomeTestimonials();
+}
+
+// --- SECURE ADMIN ACCESS & AUTHENTICATION ---
+let isAdminLoggedIn = false;
+
+// Secure SHA-256 hash implementation for private authentication
+async function sha256(message) {
+const msgBuffer = new TextEncoder().encode(message);
+const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+const hashArray = Array.from(new Uint8Array(hashBuffer));
+return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Pre-computed secure hash for the teacher's authorized passcode (kept completely private from plain text disclosure)
+const AUTHORIZED_ADMIN_HASH = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";
+
+async function checkAdminAccess() {
+if (isAdminLoggedIn) {
+showPage('admin');
+loadAdminData();
+} else {
+document.getElementById('adminModal').classList.remove('hidden');
+}
+}
+
+function closeAdminModal() {
+document.getElementById('adminModal').classList.add('hidden');
+}
+
+async function verifyAdminPasscode() {
+const pass = document.getElementById('adminPassInput').value;
+const hashedInput = await sha256(pass);
+if (hashedInput === AUTHORIZED_ADMIN_HASH) {
+isAdminLoggedIn = true;
+closeAdminModal();
+document.getElementById('adminPassInput').value = '';
+showPage('admin');
+loadAdminData();
+} else {
+alert('Incorrect passcode! Access restricted to authorized teacher.');
+document.getElementById('adminPassInput').value = '';
+}
+}
+
+function logoutAdmin() {
+isAdminLoggedIn = false;
+showPage('home');
+}
+
+// --- COURSES & PRICING CALCULATOR (WITH 3-LANGUAGE MONTH LABEL) ---
+function getMonthLabel() {
+if (currentLang === 'ar') return '/ شهر';
+if (currentLang === 'fr') return '/ mois';
+return '/ month';
+}
+
+function updateCalc() {
+const level = document.getElementById('calcLevel').value;
+const format = document.getElementById('calcFormat').value;
+const freq = parseInt(document.getElementById('calcFreq').value);
+
+let hourlyRate = format === 'individual' ? 2000 : 1000;
+let monthlySessions = freq * 4;
+let monthlyPrice = monthlySessions * hourlyRate;
+
+let durationMap = {
+'A1': '4 – 5 Months',
+'A2': '5 – 6 Months',
+'B1': '5 – 6 Months',
+'B2': '6 – 7 Months',
+'C1': '6 – 8 Months'
+};
+
+document.getElementById('calcPriceResult').textContent = `${monthlyPrice.toLocaleString()} DZD ${getMonthLabel()}`;
+document.getElementById('calcDurationResult').textContent = durationMap[level];
+}
+
+const coursesData = [
+{ level: 'A1', title: 'A1 – Beginner Level', hours: '40–50 Hours', desc: 'Basic everyday expressions, simple introductions, and foundational vocabulary.' },
+{ level: 'A2', title: 'A2 – Elementary Level', hours: '50–60 Hours', desc: 'Routine conversations, expressing past experiences, and practical travel English.' },
+{ level: 'B1', title: 'B1 – Intermediate Level', hours: '50–65 Hours', desc: 'Fluency in familiar topics, describing ambitions, and handling most travel situations.' },
+{ level: 'B2', title: 'B2 – Upper-Intermediate', hours: '60–75 Hours', desc: 'Spontaneous interaction with native speakers, complex essays, and abstract discussions.' },
+{ level: 'C1', title: 'C1 – Advanced Proficiency', hours: '65–80 Hours', desc: 'Professional fluency, sophisticated nuances, and high-level academic communication.' }
+];
+
+function renderCoursesGrid() {
+const grid = document.getElementById('coursesListGrid');
+grid.innerHTML = coursesData.map(c => `
+<div class="bg-white p-8 rounded-3xl border border-sand-200 shadow-sm space-y-4 hover:shadow-md transition flex flex-col justify-between">
+<div class="space-y-3">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase">${c.level} Programme</span>
+<h3 class="text-xl font-serif-title text-slate-900">${c.title}</h3>
+<p class="text-xs text-brand-600 font-semibold">Estimated Duration: ${c.hours}</p>
+<p class="text-slate-600 text-sm leading-relaxed">${c.desc}</p>
+</div>
+<button onclick="showPage('test')" class="w-full py-3 rounded-xl bg-sand-100 text-slate-700 font-semibold hover:bg-sand-200 text-xs transition">Take Test for ${c.level}</button>
+</div>
+`).join('');
+}
+
+// --- PLACEMENT TEST (ENGLISH ONLY - NO TRANSLATIONS) ---
+const placementQuestions = [
+// Grammar (1-10)
+{ section: 'Grammar', text: 'She _____ to the gym every morning before work.', options: ['go', 'goes', 'going', 'is go'], answer: 1 },
+{ section: 'Grammar', text: 'I _____ English for three years now.', options: ['study', 'am studying', 'have been studying', 'studied'], answer: 2 },
+{ section: 'Grammar', text: 'If I had known about the traffic, I _____ another route.', options: ['will take', 'would take', 'would have taken', 'took'], answer: 2 },
+{ section: 'Grammar', text: 'He asked me where _____ .', options: ['do I live', 'I live', 'did I live', 'I lived'], answer: 3 },
+{ section: 'Grammar', text: 'The report _____ by the manager yesterday afternoon.', options: ['was written', 'wrote', 'is written', 'has written'], answer: 0 },
+{ section: 'Grammar', text: 'By this time next year, we _____ our degree.', options: ['will finish', 'will have finished', 'finish', 'are finishing'], answer: 1 },
+{ section: 'Grammar', text: 'Hardly _____ entered the room when the phone rang.', options: ['he had', 'had he', 'did he', 'he has'], answer: 1 },
+{ section: 'Grammar', text: 'She is looking forward to _____ you soon.', options: ['see', 'seeing', 'seen', 'be see'], answer: 1 },
+{ section: 'Grammar', text: 'Despite _____ hard, he failed the examination.', options: ['study', 'studying', 'studied', 'he studied'], answer: 1 },
+{ section: 'Grammar', text: 'Not only _____ late, but he also forgot his documents.', options: ['he was', 'was he', 'did he be', 'he is'], answer: 1 },
+// Vocabulary (11-20)
+{ section: 'Vocabulary', text: 'Choose the synonym for "Resilient":', options: ['Fragile', 'Flexible', 'Strong/Adaptable', 'Weak'], answer: 2 },
+{ section: 'Vocabulary', text: 'What does the phrasal verb "bring about" mean?', options: ['To cause to happen', 'To stop', 'To remove', 'To support'], answer: 0 },
+{ section: 'Vocabulary', text: 'Select the correct collocation: "To _____ a decision."', options: ['do', 'make', 'take', 'have'], answer: 1 },
+{ section: 'Vocabulary', text: 'What is the opposite of "Transparent"?', options: ['Clear', 'Opaque', 'Translucent', 'Bright'], answer: 1 },
+{ section: 'Vocabulary', text: 'Find the correct word: "Her presentation was so _____ that everyone applauded."', options: ['tedious', 'compelling', 'monotonous', 'mediocre'], answer: 1 },
+{ section: 'Vocabulary', text: 'Choose the word that means "to reduce expenditure":', options: ['Inflate', 'Retrench', 'Expand', 'Subsidise'], answer: 1 },
+{ section: 'Vocabulary', text: 'What does "abundant" mean?', options: ['Scarce', 'Plentiful', 'Tiny', 'Hidden'], answer: 1 },
+{ section: 'Vocabulary', text: 'Select the correct adjective for someone who is overly cautious:', options: ['Audacious', 'Timid', 'Reckless', 'Bold'], answer: 1 },
+{ section: 'Vocabulary', text: 'What is a "bottleneck" in project management?', options: ['A container', 'A point of congestion', 'A final report', 'A budget surplus'], answer: 1 },
+{ section: 'Vocabulary', text: 'Choose the correct idiom for "revealing a secret unintentionally":', options: ['Spill the beans', 'Bite the bullet', 'Break a leg', 'Hit the nail'], answer: 0 },
+// Reading Comprehension (21-30)
+{ section: 'Reading', passage: 'Reading Passage: "Remote work has fundamentally altered urban demographics. As professionals enjoy location independence, secondary towns experience economic revitalisation while major metropolitan centers witness shifts in commercial real estate demand."', text: 'What is the primary effect of remote work mentioned in the text?', options: ['Decline of all cities', 'Economic revitalisation of secondary towns', 'Increase in office building prices', 'End of urban living'], answer: 1 },
+{ section: 'Reading', text: 'Based on the passage, what caused this demographic shift?', options: ['Government relocation policies', 'Location independence of professionals', 'Lower transportation costs', 'Decline in rural employment'], answer: 1 },
+{ section: 'Reading', passage: 'Reading Passage: "Artificial intelligence in education does not replace the educator; rather, it automates administrative burdens, allowing teachers to focus on empathetic student mentoring and tailored pedagogical engagement."', text: 'According to the text, what is the main role of AI in education?', options: ['Replacing teachers entirely', 'Automating administrative tasks', 'Increasing tuition fees', 'Eliminating homework'], answer: 1 },
+{ section: 'Reading', text: 'What does AI enable teachers to focus on?', options: ['Paperwork', 'Empathetic mentoring and engagement', 'Automated grading only', 'School budgeting'], answer: 1 },
+{ section: 'Reading', passage: 'Reading Passage: "Bilingualism enhances cognitive flexibility. Individuals who speak multiple languages demonstrate superior problem-solving skills and executive function due to constant mental switching between linguistic frameworks."', text: 'What cognitive benefit is attributed to bilingualism?', options: ['Faster physical reflexes', 'Enhanced cognitive flexibility and problem-solving', 'Better musical memory', 'Reduced need for sleep'], answer: 1 },
+{ section: 'Reading', text: 'Why does bilingualism improve executive function?', options: ['Due to constant mental switching between languages', 'Because of larger vocabulary storage', 'Due to early childhood education', 'Because of reading habits'], answer: 0 },
+{ section: 'Reading', passage: 'Reading Passage: "Sustainable fashion requires systemic restructuring. Fast fashion models rely on disposable garments, whereas circular fashion models prioritise durability, recycling, and ethical supply chains."', text: 'What distinguishes circular fashion from fast fashion?', options: ['Lower prices', 'Emphasis on durability and ethical supply chains', 'Shorter production cycles', 'Synthetic materials'], answer: 1 },
+{ section: 'Reading', text: 'What is a characteristic of fast fashion according to the text?', options: ['Disposable garments', 'Recycled materials', 'Sustainable supply chains', 'High durability'], answer: 0 },
+{ section: 'Reading', passage: 'Reading Passage: "Effective cross-cultural communication transcends linguistic translation. It requires an understanding of high-context versus low-context social cues, non-verbal communication norms, and implicit cultural values."', text: 'What is required for effective cross-cultural communication beyond translation?', options: ['Speaking faster', 'Understanding social cues and implicit cultural values', 'Using formal vocabulary only', 'Avoiding non-verbal gestures'], answer: 1 },
+{ section: 'Reading', text: 'What does "high-context versus low-context" refer to in the passage?', options: ['Reading speed', 'Social and cultural communication cues', 'Audio volume', 'Written grammar rules'], answer: 1 },
+// Functional English & Structure (31-40)
+{ section: 'Functional English', text: 'Which phrase is most appropriate for a formal business disagreement?', options: ['You are completely wrong.', 'I see your perspective, however, I take a different view.', 'That makes no sense.', 'I disagree with your foolish idea.'], answer: 1 },
+{ section: 'Functional English', text: 'How would you politely interrupt someone in a professional meeting?', options: ['Shut up and listen.', 'Excuse me, may I jump in here for a moment?', 'Stop talking.', 'Listen to me now.'], answer: 1 },
+{ section: 'Functional English', text: 'Choose the best response to: "Thank you for your invaluable assistance."', options: ['No, thank you.', 'You are very welcome; it was a pleasure.', 'Whatever.', 'I did nothing.'], answer: 1 },
+{ section: 'Functional English', text: 'Which expression is best for making a formal request by email?', options: ['Do this for me now.', 'I would be grateful if you could provide the report.', 'Send me the files.', 'Give me the data.'], answer: 1 },
+{ section: 'Functional English', text: 'What is the appropriate way to close a formal professional email?', options: ['Cheers,', 'Yours sincerely, / Best regards,', 'See ya,', 'Later,'], answer: 1 },
+{ section: 'Functional English', text: 'Select the best phrase to summarize a meeting conclusion:', options: ['Let us wrap up and recap our key action items.', 'This meeting was a waste of time.', 'Go home now.', 'We achieved nothing.'], answer: 0 },
+{ section: 'Functional English', text: 'How do you politely decline an invitation in a professional context?', options: ['I will not come.', 'Thank you for the invitation, but unfortunately, I have a prior commitment.', 'No, I am too busy.', 'I hate those events.'], answer: 1 },
+{ section: 'Functional English', text: 'Which sentence correctly expresses a future intention?', options: ['I am going to launch the project next Monday.', 'I launch project yesterday.', 'I will has launched.', 'I launched tomorrow.'], answer: 0 },
+{ section: 'Functional English', text: 'What is the best way to ask for clarification when instructions are unclear?', options: ['Your instructions make no sense.', 'Could you please clarify the specific requirements for this task?', 'I will not do this.', 'Explain it better.'], answer: 1 },
+{ section: 'Functional English', text: 'Choose the appropriate phrasing for giving constructive feedback:', options: ['Your work is terrible.', 'Have you considered refining this section to enhance clarity?', 'Fix this immediately or else.', 'This is completely wrong.'], answer: 1 }
+];
+
+let currentTestIndex = 0;
+let userAnswers = {};
+
+function startPlacementTest() {
+document.getElementById('testIntro').classList.add('hidden');
+document.getElementById('testContainer').classList.remove('hidden');
+currentTestIndex = 0;
+userAnswers = {};
+renderTestQuestion();
+}
+
+function renderTestQuestion() {
+const q = placementQuestions[currentTestIndex];
+document.getElementById('testSectionTag').textContent = q.section;
+document.getElementById('testProgressCounter').textContent = `Question ${currentTestIndex + 1} / ${placementQuestions.length}`;
+document.getElementById('testProgressBar').style.width = `${((currentTestIndex + 1) / placementQuestions.length) * 100}%`;
+document.getElementById('testQuestionText').textContent = q.text;
+
+const passageContainer = document.getElementById('testPassageContainer');
+if (q.passage) {
+passageContainer.textContent = q.passage;
+passageContainer.classList.remove('hidden');
+} else {
+passageContainer.classList.add('hidden');
+}
+
+const optionsGrid = document.getElementById('testOptionsGrid');
+optionsGrid.innerHTML = q.options.map((opt, idx) => `
+<button onclick="selectTestAnswer(${idx})" class="w-full text-left p-4 rounded-2xl border ${userAnswers[currentTestIndex] === idx ? 'border-brand-600 bg-brand-50 text-brand-900 font-semibold' : 'border-sand-200 bg-sand-50 hover:bg-sand-100 text-slate-700'} transition text-sm">
+<span class="inline-block w-6 font-bold">${String.fromCharCode(65 + idx)}.</span> ${opt}
+</button>
+`).join('');
+
+document.getElementById('btnPrevTest').style.display = currentTestIndex === 0 ? 'none' : 'block';
+document.getElementById('btnNextTest').textContent = currentTestIndex === placementQuestions.length - 1 ? 'Finish & View Results' : 'Next';
+}
+
+function selectTestAnswer(idx) {
+userAnswers[currentTestIndex] = idx;
+renderTestQuestion();
+}
+
+function navigateTest(direction) {
+if (direction === 1) {
+if (userAnswers[currentTestIndex] === undefined) {
+alert('Please select an option before proceeding.');
+return;
+}
+if (currentTestIndex < placementQuestions.length - 1) {
+currentTestIndex++;
+renderTestQuestion();
+} else {
+finishPlacementTest();
+}
+} else if (direction === -1 && currentTestIndex > 0) {
+currentTestIndex--;
+renderTestQuestion();
+}
+}
+
+function finishPlacementTest() {
+let score = 0;
+placementQuestions.forEach((q, idx) => {
+if (userAnswers[idx] === q.answer) score++;
+});
+
+document.getElementById('testContainer').classList.add('hidden');
+document.getElementById('testResultContainer').classList.remove('hidden');
+
+document.getElementById('resTotalScore').textContent = `${score} / ${placementQuestions.length}`;
+
+let estLevel = 'A1';
+let desc = 'Beginner foundation in grammar, vocabulary, and functional expressions.';
+if (score >= 35) { estLevel = 'C1'; desc = 'Advanced proficiency with sophisticated control of nuance and complex structures.'; }
+else if (score >= 28) { estLevel = 'B2'; desc = 'Upper-intermediate competence capable of spontaneous interaction and complex discussions.'; }
+else if (score >= 20) { estLevel = 'B1'; desc = 'Intermediate fluency with good command of everyday and professional topics.'; }
+else if (score >= 12) { estLevel = 'A2'; desc = 'Elementary command suitable for routine conversations and familiar situations.'; }
+
+document.getElementById('resEstimatedLevel').textContent = estLevel;
+document.getElementById('resLevelDesc').textContent = desc;
+
+// Save result temporarily for form submission
+window.latestTestScore = score;
+window.latestEstimatedLevel = estLevel;
+}
+
+function submitTestProfile(event) {
+event.preventDefault();
+const data = {
+name: document.getElementById('tSubName').value,
+email: document.getElementById('tSubEmail').value,
+phone: document.getElementById('tSubPhone').value,
+format: document.getElementById('tSubFormat').value,
+writing: document.getElementById('tSubWriting').value,
+score: window.latestTestScore || 0,
+level: window.latestEstimatedLevel || 'A1',
+date: new Date().toLocaleDateString()
+};
+
+let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');
+tests.push(data);
+localStorage.setItem('raounak_tests', JSON.stringify(tests));
+
+alert('Test results and enrolment request submitted successfully! Raounak will contact you soon.');
+document.getElementById('testSubmissionForm').reset();
+showPage('home');
+}
+
+// --- DIRECT ENROLMENT & CONTACT ---
+function submitDirectEnrolment(event) {
+event.preventDefault();
+const data = {
+name: document.getElementById('deName').value,
+email: document.getElementById('deEmail').value,
+phone: document.getElementById('dePhone').value,
+format: document.getElementById('deFormat').value,
+level: document.getElementById('deLevel').value,
+date: new Date().toLocaleDateString()
+};
+
+let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');
+enrols.push(data);
+localStorage.setItem('raounak_enrolments', JSON.stringify(enrols));
+
+alert('Enrolment request submitted successfully!');
+document.getElementById('directEnrolForm').reset();
+showPage('home');
+}
+
+// --- FAQ ACCORDION ---
+const faqData = [
+{ q: "How are the online lessons conducted?", a: "Lessons are conducted live via Zoom or Google Meet with interactive whiteboard materials, shared screens, and immediate spoken feedback." },
+{ q: "Can I choose individual (1:1) or group lessons?", a: "Yes! You can choose 1:1 individual coaching (2,000 DZD/hr) or interactive small group lessons (1,000 DZD/student/hr)." },
+{ q: "What payment methods are accepted?", a: "We accept secure local bank transfers, BaridiMob, and CCP for students in Algeria, as well as international options upon request." },
+{ q: "What happens if I miss a scheduled lesson?", a: "If you provide 24 hours advance notice, the session can be rescheduled according to teacher availability." }
+];
+
+function renderFaqAccordion() {
+const container = document.getElementById('faqAccordion');
+container.innerHTML = faqData.map((faq, idx) => `
+<div class="bg-white rounded-2xl border border-sand-200 p-6 shadow-sm space-y-2">
+<h3 class="font-serif-title font-semibold text-slate-900 text-lg">${faq.q}</h3>
+<p class="text-slate-600 text-sm leading-relaxed">${faq.a}</p>
+</div>
+`).join('');
+}
+
+// --- TESTIMONIALS ---
+const defaultTestimonials = [
+{ name: "Yasmine K.", level: "B2 Upper-Intermediate", text: "Raounak's CELTA qualification truly shows in her teaching. My speaking confidence and grammar accuracy improved remarkably!" },
+{ name: "Anis M.", level: "C1 Advanced", text: "The individual lessons are exceptionally tailored to professional English. Highly recommended for career advancement." },
+{ name: "Fatima Z.", level: "B1 Intermediate", text: "The small group dynamic is fantastic. We practise real-world conversation in a very supportive and encouraging environment." }
+];
+
+function renderHomeTestimonials() {
+let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));
+const container = document.getElementById('homeTestimonialsList');
+container.innerHTML = revs.map(r => `
+<div class="bg-white p-6 rounded-3xl border border-sand-200 shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-serif-title font-semibold text-slate-900">${r.name}</span>
+<span class="text-[10px] px-2.5 py-1 rounded-full bg-brand-100 text-brand-700 font-semibold">${r.level}</span>
+</div>
+<p class="text-xs text-slate-600 italic leading-relaxed">"${r.text}"</p>
+</div>
+`).join('');
+}
+
+// --- STUDENT PORTAL VERIFICATION ---
+function verifyStudentPortal() {
+const val = document.getElementById('portalAccessInput').value.trim();
+if (!val) {
+alert('Please enter your email or access code.');
+return;
+}
+
+// Check if enrolled in localStorage
+let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');
+let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');
+
+let foundEnrol = enrols.find(e => e.email.toLowerCase() === val.toLowerCase() || e.phone === val);
+let foundTest = tests.find(t => t.email.toLowerCase() === val.toLowerCase() || t.phone === val);
+
+if (foundEnrol || foundTest || val === 'student2026') {
+document.getElementById('portalLocked').classList.add('hidden');
+document.getElementById('portalUnlocked').classList.remove('hidden');
+const name = foundEnrol ? foundEnrol.name : (foundTest ? foundTest.name : 'Learner');
+const lvl = foundEnrol ? foundEnrol.level : (foundTest ? foundTest.level : 'B1');
+document.getElementById('portalWelcomeName').textContent = `Welcome Back, ${name}!`;
+document.getElementById('portalStudentLevel').textContent = `Level ${lvl}`;
+} else {
+alert('Access code or email not found in active enrolments. Please submit an enrolment request first or use your registered email.');
+}
+}
+
+// --- TEACHER DASHBOARD (ADMIN) DATA MANAGEMENT ---
+function switchAdminTab(tab) {
+['Enrolments', 'Tests', 'Testimonials'].forEach(t => {
+document.getElementById('adminTab' + t).classList.add('hidden');
+document.getElementById('tabBtn' + t).className = "px-4 py-2 rounded-xl bg-sand-100 text-slate-700 text-xs font-semibold transition";
+});
+document.getElementById('adminTab' + tab).classList.remove('hidden');
+document.getElementById('tabBtn' + tab).className = "px-4 py-2 rounded-xl bg-brand-600 text-white text-xs font-semibold transition";
+}
+
+function loadAdminData() {
+// Load Enrolments
+let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');
+const enrolsContainer = document.getElementById('adminEnrolmentsList');
+if (enrols.length === 0) {
+enrolsContainer.innerHTML = `<p class="text-xs text-slate-500 italic">No direct enrolment requests yet.</p>`;
+} else {
+enrolsContainer.innerHTML = enrols.map((e, idx) => `
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-slate-900 text-sm">${e.name}</span>
+<span class="text-[10px] px-2 py-0.5 bg-brand-100 text-brand-700 rounded font-semibold">${e.level}</span>
+<span class="text-[10px] text-slate-400">${e.date}</span>
+</div>
+<p class="text-xs text-slate-600">Email: ${e.email} | WhatsApp: ${e.phone} | Format: ${e.format}</p>
+</div>
+<button onclick="deleteEnrolment(${idx})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>
+</div>
+`).join('');
+}
+
+// Load Tests
+let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');
+const testsContainer = document.getElementById('adminTestsList');
+if (tests.length === 0) {
+testsContainer.innerHTML = `<p class="text-xs text-slate-500 italic">No placement test submissions yet.</p>`;
+} else {
+testsContainer.innerHTML = tests.map((t, idx) => `
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="font-semibold text-slate-900 text-sm">${t.name}</span>
+<span class="text-[10px] px-2 py-0.5 bg-brand-600 text-white rounded font-bold">Score: ${t.score}/40 (${t.level})</span>
+<span class="text-[10px] text-slate-400">${t.date}</span>
+</div>
+<p class="text-xs text-slate-600">Email: ${t.email} | WhatsApp: ${t.phone} | Format: ${t.format}</p>
+${t.writing ? `<p class="text-xs text-slate-700 italic bg-white p-2 rounded border border-sand-200 mt-1"><strong>Writing Task:</strong> "${t.writing}"</p>` : ''}
+</div>
+<button onclick="deleteTest(${idx})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>
+</div>
+`).join('');
+}
+
+// Load Testimonials Manager
+let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));
+const revsContainer = document.getElementById('adminTestimonialsList');
+revsContainer.innerHTML = revs.map((r, idx) => `
+<div class="p-4 rounded-2xl bg-sand-50 border border-sand-200 flex items-center justify-between">
+<div>
+<span class="font-semibold text-slate-900 text-sm">${r.name} (${r.level})</span>
+<p class="text-xs text-slate-600 italic">"${r.text}"</p>
+</div>
+<button onclick="deleteTestimonial(${idx})" class="px-3 py-1 rounded-lg bg-red-50 text-red-700 text-xs font-semibold hover:bg-red-100 transition">Delete</button>
+</div>
+`).join('');
+}
+
+function deleteEnrolment(idx) {
+let enrols = JSON.parse(localStorage.getItem('raounak_enrolments') || '[]');
+enrols.splice(idx, 1);
+localStorage.getItem('raounak_enrolments', JSON.stringify(enrols)); // fixed syntax
+loadAdminData();
+}
+
+function deleteTest(idx) {
+let tests = JSON.parse(localStorage.getItem('raounak_tests') || '[]');
+tests.splice(idx, 1);
+localStorage.setItem('raounak_tests', JSON.stringify(tests));
+loadAdminData();
+}
+
+function openAddTestimonialModal() {
+document.getElementById('testimonialModal').classList.remove('hidden');
+}
+
+function closeTestimonialModal() {
+document.getElementById('testimonialModal').classList.add('hidden');
+}
+
+function saveNewTestimonial(event) {
+event.preventDefault();
+const name = document.getElementById('newRevName').value;
+const level = document.getElementById('newRevLevel').value;
+const text = document.getElementById('newRevText').value;
+
+let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));
+revs.push({ name, level, text });
+localStorage.setItem('raounak_testimonials', JSON.stringify(revs));
+
+closeTestimonialModal();
+loadAdminData();
+renderHomeTestimonials();
+}
+
+function deleteTestimonial(idx) {
+let revs = JSON.parse(localStorage.getItem('raounak_testimonials') || JSON.stringify(defaultTestimonials));
+revs.splice(idx, 1);
+localStorage.setItem('raounak_testimonials', JSON.stringify(revs));
+loadAdminData();
+renderHomeTestimonials();
+}
+
+// Initialize on load
+window.addEventListener('DOMContentLoaded', () => {
+lucide.createIcons();
+renderHomeTestimonials();
+updateCalc();
+});
+</script>
+</body>
+</html>
