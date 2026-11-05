@@ -31,6 +31,8 @@ html[dir="rtl"] body { font-family: 'Alexandria', sans-serif; }
 .font-serif-title { font-family: 'Playfair Display', serif; }
 html[dir="rtl"] .font-serif-title { font-family: 'Alexandria', sans-serif; }
 .glass { background: rgba(255, 255, 255, 0.90); backdrop-filter: blur(12px); }
+.booking-frame { width: 100%; height: 720px; border: 0; display: block; background: #fff; }
+@media (max-width: 640px) { .booking-frame { height: 820px; } }
 </style>
 </head>
 <body class="bg-sand-50 text-slate-800 antialiased selection:bg-brand-200 selection:text-brand-900 min-h-screen flex flex-col justify-between">
@@ -103,7 +105,7 @@ html[dir="rtl"] .font-serif-title { font-family: 'Alexandria', sans-serif; }
 </div>
 <div class="md:col-span-5 flex justify-center">
 <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-white shadow-2xl rotate-1 hover:rotate-0 transition duration-300">
-<img src="IMG_8736.JPG" alt="Raounak Maalache" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
+<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-white text-center">
 <p class="font-serif-title font-semibold text-lg">Raounak Maalache</p>
 <p class="text-xs text-brand-200" data-i18n="hero_avatar_sub">CELTA Teacher & Master's Graduate</p>
@@ -149,7 +151,7 @@ html[dir="rtl"] .font-serif-title { font-family: 'Alexandria', sans-serif; }
 <div class="bg-white rounded-3xl border border-sand-200 p-8 md:p-12 shadow-sm space-y-8">
 <div class="grid md:grid-cols-12 gap-8 items-center">
 <div class="md:col-span-5 flex justify-center">
-<img src="IMG_8736.JPG" alt="Raounak Maalache" class="w-64 h-64 md:w-full md:h-80 object-cover rounded-2xl shadow-md border-2 border-sand-200" onerror="this.onerror=null;this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
+<img src="IMG_8736.jpg" alt="Raounak Maalache" class="w-64 h-64 md:w-full md:h-80 object-cover rounded-2xl shadow-md border-2 border-sand-200" onerror="this.onerror=null;this.src='https://placehold.co/400x400/e4dccb/3d1e0d?text=Raounak+Maalache'">
 </div>
 <div class="md:col-span-7 space-y-4 ltr:text-left rtl:text-right">
 <span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-700 uppercase" data-i18n="about_badge">Meet Your Teacher</span>
@@ -337,6 +339,16 @@ html[dir="rtl"] .font-serif-title { font-family: 'Alexandria', sans-serif; }
 <select id="deLevel" required class="w-full p-3 rounded-xl border border-sand-200 text-sm focus:outline-none focus:border-brand-500">
 <option value="A1"></option><option value="A2"></option><option value="B1"></option><option value="B2"></option><option value="C1"></option>
 </select>
+
+<!-- ===== Choose Your Lesson Time (Google Calendar appointment schedule, inline) ===== -->
+<div id="bookingSection" class="pt-6 mt-2 border-t border-sand-200 space-y-3">
+<h3 class="text-lg font-serif-title font-semibold text-slate-900" data-i18n="booking_title">Choose Your Lesson Time</h3>
+<p class="text-slate-600 text-sm leading-relaxed" data-i18n="booking_desc">Pick an available date and time below. Booking is completed inside this page and the slot is reserved for you automatically.</p>
+<div id="bookingEmbedBox" class="rounded-2xl overflow-hidden border border-sand-200 bg-white shadow-sm"></div>
+<p class="text-xs text-slate-500" data-i18n="booking_note">Use the same email address here as in the form above, so Raounak can match your booking to your enrolment.</p>
+<p class="text-xs text-slate-400"><span data-i18n="booking_help">Calendar not loading? Message Raounak on WhatsApp and she will help you book.</span> <a href="https://wa.me/213698959091" target="_blank" rel="noopener" class="text-brand-700 underline" dir="ltr">+213 698 95 90 91</a></p>
+</div>
+
 <label class="flex items-start gap-2 text-xs text-slate-600">
 <input type="checkbox" id="deConsent" required class="mt-0.5">
 <span data-i18n="consent_text">I agree that my details are used only to contact me about English lessons.</span>
@@ -375,6 +387,12 @@ const WHATSAPP_NUMBER = '213698959091';
 // 1) Create a free form at https://formspree.io, then paste your form URL here.
 //    Until you do, requests open WhatsApp with the student's details pre-filled.
 const FORM_ENDPOINT = 'https://formspree.io/f/mwllywgo';
+
+// 3) GOOGLE CALENDAR BOOKING PAGE (inline embed). Paste the iframe "src" address that Google gives you under
+//    Calendar > Booking pages > Options > Sharing options > Website embed > Inline booking page > Copy code.
+//    It looks like: https://calendar.google.com/calendar/appointments/schedules/XXXXXXXX?gv=true
+//    (Pre-filled below from the schedule ID in your calendar.app.google link. Replace it if Google's code differs.)
+const GOOGLE_BOOKING_EMBED_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ11Uc0fb-hMqckmpv_70ZjFZ_TfyAhz2J9YnBRtuM5EY4gItSHR2k-FPzZAEa6kG39SqkPVtXw6?gv=true';
 
 // 2) Add REAL student reviews here (with permission). The section stays hidden while this is empty.
 //    Example: { name: "Student N.", level: "B1", text: "Review text..." }
@@ -437,6 +455,7 @@ faq_q1:"How are the online lessons conducted?", faq_a1:"Lessons are conducted li
 faq_q2:"Can I choose individual (1:1) or group lessons?", faq_a2:"Yes! You can choose 1:1 individual coaching ({p1} DZD/hr) or interactive small group lessons ({p2} DZD/student/hr).",
 faq_q3:"What payment methods are accepted?", faq_a3:"We accept secure local bank transfers, BaridiMob, and CCP for students in Algeria, as well as international options upon request.",
 faq_q4:"What happens if I miss a scheduled lesson?", faq_a4:"If you provide 24 hours advance notice, the session can be rescheduled according to teacher availability.",
+booking_title:"Choose Your Lesson Time", booking_desc:"Pick an available date and time below. Booking is completed inside this page and the slot is reserved for you automatically.", booking_note:"Use the same email address here as in the form above, so Raounak can match your booking to your enrolment.", booking_help:"Calendar not loading? Message Raounak on WhatsApp and she will help you book.",
 footer_note:"© 2026 Raounak Maalache. All rights reserved. CELTA Qualified English Teaching."
 },
 fr: {
@@ -482,6 +501,7 @@ faq_q1:"Comment se déroulent les cours en ligne ?", faq_a1:"Les cours ont lieu 
 faq_q2:"Puis-je choisir entre cours individuels (1:1) et cours en groupe ?", faq_a2:"Oui ! Vous pouvez choisir le coaching individuel ({p1} DZD/h) ou les cours en petit groupe interactifs ({p2} DZD/élève/h).",
 faq_q3:"Quels modes de paiement sont acceptés ?", faq_a3:"Nous acceptons les virements bancaires locaux sécurisés, BaridiMob et CCP pour les élèves en Algérie, ainsi que des options internationales sur demande.",
 faq_q4:"Que se passe-t-il si je manque un cours ?", faq_a4:"Avec un préavis de 24 heures, la séance peut être reportée selon les disponibilités de l'enseignante.",
+booking_title:"Choisissez l'horaire de votre cours", booking_desc:"Choisissez une date et une heure disponibles ci-dessous. La réservation se termine sur cette page et le créneau est réservé automatiquement pour vous.", booking_note:"Utilisez ici la même adresse e-mail que dans le formulaire ci-dessus, afin que Raounak puisse associer votre réservation à votre inscription.", booking_help:"Le calendrier ne s'affiche pas ? Écrivez à Raounak sur WhatsApp, elle vous aidera à réserver.",
 footer_note:"© 2026 Raounak Maalache. Tous droits réservés. Enseignement de l'anglais qualifié CELTA."
 },
 ar: {
@@ -527,6 +547,7 @@ faq_q1:"كيف تتم الدروس عبر الإنترنت؟", faq_a1:"تتم ا
 faq_q2:"هل يمكنني الاختيار بين الدروس الفردية والجماعية؟", faq_a2:"نعم! يمكنك اختيار الدروس الفردية ({p1} دج/الساعة) أو دروس المجموعات الصغيرة التفاعلية ({p2} دج/للتلميذ/الساعة).",
 faq_q3:"ما هي طرق الدفع المقبولة؟", faq_a3:"نقبل التحويلات البنكية المحلية الآمنة وبريدي موب (BaridiMob) والحساب الجاري البريدي (CCP) للطلاب في الجزائر، إضافة إلى خيارات دولية عند الطلب.",
 faq_q4:"ماذا لو غبت عن حصة؟", faq_a4:"إذا أبلغت قبل 24 ساعة على الأقل، يمكن تأجيل الحصة حسب توفر الأستاذة.",
+booking_title:"اختر موعد حصتك", booking_desc:"اختر تاريخاً ووقتاً متاحين أدناه. يتم إتمام الحجز داخل هذه الصفحة ويُحجز لك الموعد تلقائياً.", booking_note:"استخدم هنا نفس البريد الإلكتروني المكتوب في الاستمارة أعلاه حتى تتمكن رونق من ربط حجزك بتسجيلك.", booking_help:"التقويم لا يظهر؟ راسل رونق عبر واتساب وستساعدك على الحجز.",
 footer_note:"© 2026 رونق معلاش. جميع الحقوق محفوظة."
 }
 };
@@ -602,6 +623,7 @@ document.getElementById('page-' + id).classList.remove('hidden');
 toggleMobileMenu(true);
 window.scrollTo({ top: 0, behavior: 'smooth' });
 if (id === 'test') resetPlacementTest();
+if (id === 'contact') initBookingEmbed();
 safeIcons();
 }
 
@@ -873,6 +895,24 @@ const payload = { type: 'Enrolment', Name: data.name, Email: data.email, WhatsAp
 await deliver(payload);
 document.getElementById('directEnrolForm').reset();
 showPage('home');
+}
+
+// =====================================================================
+// GOOGLE CALENDAR INLINE BOOKING (loaded when the Enrolment page opens)
+// =====================================================================
+function initBookingEmbed() {
+const section = document.getElementById('bookingSection');
+const box = document.getElementById('bookingEmbedBox');
+if (!GOOGLE_BOOKING_EMBED_URL) { section.classList.add('hidden'); return; }
+if (box.dataset.loaded) return;
+const frame = document.createElement('iframe');
+frame.className = 'booking-frame';
+frame.title = 'Lesson booking calendar';
+frame.loading = 'lazy';
+frame.setAttribute('frameborder', '0');
+frame.src = GOOGLE_BOOKING_EMBED_URL;
+box.appendChild(frame);
+box.dataset.loaded = '1';
 }
 
 // =====================================================================
